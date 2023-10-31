@@ -1,0 +1,49 @@
+.container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+footer{
+  background-color:#003e78;
+  color:rgba(245, 245, 5, 0.921);
+  padding:20px;
+}
+.regForm{
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:30px;
+  width:400px;
+  padding:30px;
+  border:1px solid black;
+  border-radius:10px;
+  box-shadow:0px 0px 10px rgb(60, 60, 60);
+  background-color: rgba(255, 255, 255, 0.83);
+}
+h1{
+  text-align:center;
+  padding:10px; 
+  font-weight:bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.is-invalid{
+  border:1px solid red;
+  box-shadow:0px 0px 10px red;
+}
+.is-valid{
+  border:1px solid green;
+  box-shadow:0px 0px 10px green;
+}
+footer a{
+  color:white;
+}
+
+footer a:hover{
+  color:rgba(218, 218, 14, 0.69);
+}
+
+footer strong{
+  color:rgba(218, 218, 14, 0.69);
+}

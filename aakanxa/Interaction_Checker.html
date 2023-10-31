@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Interaction Checker</title>
+    <style>
+	
+	#container {
+      align-items: center;
+      justify-content: center;
+      height: 50vh; /* Center vertically within the viewport */
+      border: 0px solid #000; 
+	  border-radius:5%;
+      padding: 20px; /* Add some padding to the container */
+    }
+	
+	 .dropdown {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+	#checkInteractionButton{
+			width: 12%; 
+			margin-left: 44%; 
+			margin-bottom: 25px
+		}
+
+	@media screen and (max-width:800px){
+		#checkInteractionButton{
+			width: 40%;
+			margin-left: 30%;
+		}
+	}
+	
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #003e78;">
+        <div class="container-fluid">
+          <a class="navbar-brand text-warning" href="../index.html" onfocus="readAloud('MedPharmAccess')">
+            <img src="logo.png" alt="" width="30px" height="30px" style="margin-right: 5px;" ><b>MedPharmAccess</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-warning" aria-current="page" href="../index.html" onfocus="readAloud('home')"><b>Home</b></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" onfocus="readAloud('Tools')">
+                  <b>Tools</b>
+                </a>
+                <ul class="dropdown-menu text-warning"style="background-color: #003e78;" aria-labelledby="navbarDropdown">
+                  <li><a id="navelems" class="dropdown-item text-warning" href="Pill_Identifier.html" onfocus="readAloud('Pill Identifier')">Pill Identifier</a></li>
+                  <li><a id="navelems" class="dropdown-item text-warning" href="Interaction_Checker.html" onfocus="readAloud('Interaction Checker')">Interaction Checker</a></li>
+                  <li><a id="navelems" class="dropdown-item text-warning" href="../project/index.html" onfocus="readAloud('Home Remedies')">Home Remedies</a></li>
+                  <li><a id="navelems" class="dropdown-item text-warning" href="../gaunrang/sideeffects.html" onfocus="readAloud('Side Efects')">Side Efects</a></li>
+                  <li><a id="navelems" class="dropdown-item text-warning" href="../project/popular.html" onfocus="readAloud('Drugs Comparison')">Drugs Comparison</a></li>
+                  <li><a id="navelems" class="dropdown-item text-warning" href="../bmi.html" onfocus="readAloud('BMI Calculator')">BMI Calculator</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="../gaunrang/articels.html" onfocus="readAloud('Articles')"><b>Articles</b></a>
+              </li>
+              <li class="nav-item text-warning">
+                <a class="nav-link text-warning" href="../lalit/Sign_up.html" onfocus="readAloud('SignOut')"><b>SignOut</b></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+	  
+	<h3 style="text-align:Center;padding:20px">Introducing our Interaction Checker for pills and medicines – your essential tool for staying safe and informed about potential drug interactions, ensuring your well-being is a top priority.</h3>
+	<br>
+
+	<!-- Drop down for 1st pill selection -->
+	
+	<div id="container">
+<div class="dropdown" id="1st_pill_dropdown"> <!-- Add a unique identifier to this dropdown -->
+  <h4><label for="pillDropdown">1st Pill : </label></h4>
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" onfocus="readAloud('Select the first pill.')">
+    --Select--
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Abilify (aripiprazole)</a></li>
+    <li><a class="dropdown-item" href="#">Augmentin (amoxicillin / clavulanate)</a></li>
+    <li><a class="dropdown-item" href="#">Advair Diskus (fluticasone / salmeterol)</a></li>
+	<li><a class="dropdown-item" href="#">Auvelity (bupropion / dextromethorphan)</a></li>
+	<li><a class="dropdown-item" href="#">Arimidex (anastrozole)</a></li>
+	<li><a class="dropdown-item" href="#">Basaglar (insulin glargine)</a></li>
+	<li><a class="dropdown-item" href="#">Benicar (olmesartan)</a></li>
+	<li><a class="dropdown-item" href="#">Bactrim DS (sulfamethoxazole / trimethoprim)</a></li>
+	<li><a class="dropdown-item" href="#">Boniva (ibandronate)</a></li>
+	<li><a class="dropdown-item" href="#">Bactrim DS (sulfamethoxazole / trimethoprim)</a></li>
+	<li><a class="dropdown-item" href="#">Bactroban (mupirocin topical)</a></li>
+	<li><a class="dropdown-item" href="#">Benicar (olmesartan)</a></li>
+	<li><a class="dropdown-item" href="#">Biktarvy (bictegravir / emtricitabine / tenofovir alafenamide)</a></li>
+	<li><a class="dropdown-item" href="#">Cialis (tadalafil)</a></li>
+	<li><a class="dropdown-item" href="#">Cipro (ciprofloxacin)</a></li>
+	<li><a class="dropdown-item" href="#">Contrave (bupropion / naltrexone)</a></li>
+	<li><a class="dropdown-item" href="#">Compazine (prochlorperazine)</a></li>
+	<li><a class="dropdown-item" href="#">Chantix (varenicline)</a></li>
+	<li><a class="dropdown-item" href="#">Chantix (varenicline)</a></li>
+	<li><a class="dropdown-item" href="#">Contrave (bupropion / naltrexone)</a></li>
+	<li><a class="dropdown-item" href="#">Depakote (divalproex sodium)</a></li>
+	<li><a class="dropdown-item" href="#">Elavil (amitriptyline)</a></li>
+	<li><a class="dropdown-item" href="#">Evista (raloxifene)</a></li>
+	<li><a class="dropdown-item" href="#">Estrace (estradiol)</a></li>
+	<li><a class="dropdown-item" href="#">Elavil (amitriptyline)</a></li>
+	<li><a class="dropdown-item" href="#">Flagyl (metronidazole)</a></li>
+	<li><a class="dropdown-item" href="#">Herceptin (trastuzumab)</a></li>
+	<li><a class="dropdown-item" href="#">Imdur (isosorbide mononitrate)</a></li>
+	<li><a class="dropdown-item" href="#">Ingrezza (valbenazine)</a></li>
+	<li><a class="dropdown-item" href="#">Indocin (indomethacin)</a></li>
+	<li><a class="dropdown-item" href="#">Jardiance (empagliflozin)</a></li>
+	<li><a class="dropdown-item" href="#">Jadenu (deferasirox)</a></li>
+	<li><a class="dropdown-item" href="#">Kayexalate (sodium polystyrene sulfonate)</a></li>
+	<li><a class="dropdown-item" href="#">Ketalar (ketamine)</a></li>
+	<li><a class="dropdown-item" href="#">Kerendia (finerenone)</a></li>
+	<li><a class="dropdown-item" href="#">Lasix (furosemide)</a></li>
+	<li><a class="dropdown-item" href="#">Lomotil (atropine / diphenoxylate)</a></li>
+	<li><a class="dropdown-item" href="#">Lumigan (bimatoprost ophthalmic)</a></li>
+	<li><a class="dropdown-item" href="#">Jantoven (warfarin)</a></li>
+	<li><a class="dropdown-item" href="#">Jalyn (dutasteride / tamsulosin)</a></li>
+	<li><a class="dropdown-item" href="#">Kenalog-40 (triamcinolone)</a></li>
+	<li><a class="dropdown-item" href="#">Metoprolol Succinate ER (metoprolol)</a></li>
+	<li><a class="dropdown-item" href="#">Mirena (levonorgestrel)</a></li>
+	<li><a class="dropdown-item" href="#">Microzide (hydrochlorothiazide)</a></li>
+	<li><a class="dropdown-item" href="#">Nitrostat (nitroglycerin)</a></li>
+	<li><a class="dropdown-item" href="#">Nasonex (mometasone nasal)</a></li>
+	<li><a class="dropdown-item" href="#">Omnicef (cefdinir)</a></li>
+	<li><a class="dropdown-item" href="#">Pepcid (famotidine)</a></li>
+	<li><a class="dropdown-item" href="#">Unisom SleepGels (diphenhydramine)</a></li>
+	<li><a class="dropdown-item" href="#">Zithromax (azithromycin)</a></li>
+  </ul>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    $('#1st_pill_dropdown .dropdown-item').click(function () { // Target the specific dropdown by its ID
+      var selectedValue = $(this).text();
+      $('#1st_pill_dropdown .dropdown-toggle').text(selectedValue);
+    });
+  });
+</script>
+
+
+<br>
+
+<!-- Drop down for 2nd pill selection -->
+	
+<div class="dropdown" id="2nd_pill_dropdown"> <!-- Add a unique identifier to this dropdown -->
+  <h4><label for="pillDropdown">2nd Pill : </label></h4>
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" onfocus="readAloud('Select the Second pill.')">
+    --Select--
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Adderall (amphetamine / dextroamphetamine) </a></li>
+    <li><a class="dropdown-item" href="#">Ativan (lorazepam)</a></li>
+    <li><a class="dropdown-item" href="#">Ambien (zolpidem)</a></li>
+	<li><a class="dropdown-item" href="#">Azithromycin Dose Pack (azithromycin)</a></li>
+	<li><a class="dropdown-item" href="#">Benadryl (diphenhydramine)</a></li>
+	<li><a class="dropdown-item" href="#">Bactroban (mupirocin topical)</a></li>
+	<li><a class="dropdown-item" href="#">Bentyl (dicyclomine)</a></li>
+	<li><a class="dropdown-item" href="#">Basaglar (insulin glargine)</a></li>
+	<li><a class="dropdown-item" href="#">Breztri Aerosphere (budesonide / formoterol / glycopyrrolate)</a></li>
+	<li><a class="dropdown-item" href="#">Belbuca (buprenorphine)</a></li>
+	<li><a class="dropdown-item" href="#">Breo Ellipta (fluticasone / vilanterol)</a></li>
+	<li><a class="dropdown-item" href="#">Bumex (bumetanide)</a></li>
+	<li><a class="dropdown-item" href="#">Bromfed DM (brompheniramine / dextromethorphan / pseudoephedrine)</a></li>
+	<li><a class="dropdown-item" href="#">Cymbalta (duloxetine)</a></li>
+	<li><a class="dropdown-item" href="#">Cymbalta (duloxetine)</a></li>
+	<li><a class="dropdown-item" href="#">Cymbalta (duloxetine)</a></li>
+	<li><a class="dropdown-item" href="#">Cymbalta (duloxetine)</a></li>
+	<li><a class="dropdown-item" href="#">Compazine (prochlorperazine)</a></li>
+	<li><a class="dropdown-item" href="#">Coreg (carvedilol)</a></li>
+	<li><a class="dropdown-item" href="#">Creon (pancrelipase)</a></li>
+	<li><a class="dropdown-item" href="#">Dulcolax (bisacodyl)</a></li>
+	<li><a class="dropdown-item" href="#">Entresto (sacubitril / valsartan)</a></li>
+	<li><a class="dropdown-item" href="#">Excedrin Migraine (acetaminophen / aspirin / caffeine)</a></li>
+	<li><a class="dropdown-item" href="#">Evista (raloxifene)</a></li>
+	<li><a class="dropdown-item" href="#">Eligard (leuprolide)</a></li>
+	<li><a class="dropdown-item" href="#">Flonase (fluticasone nasal)</a></li>
+	<li><a class="dropdown-item" href="#">Humira (adalimumab)</a></li>
+	<li><a class="dropdown-item" href="#">Imuran (azathioprine)</a></li>
+	<li><a class="dropdown-item" href="#">Invega (paliperidone)</a></li>
+	<li><a class="dropdown-item" href="#">Invega (paliperidone)</a></li>
+	<li><a class="dropdown-item" href="#">Junel Fe 1/20 (ethinyl estradiol / norethindrone)</a></li>
+	<li><a class="dropdown-item" href="#">Jevtana (cabazitaxel)</a></li>
+	<li><a class="dropdown-item" href="#">Klonopin (clonazepam)</a></li>
+	<li><a class="dropdown-item" href="#">Kisqali (ribociclib)</a></li>
+	<li><a class="dropdown-item" href="#">Klor-Con (potassium chloride)</a></li>
+	<li><a class="dropdown-item" href="#">Latuda (lurasidone)</a></li>
+	<li><a class="dropdown-item" href="#">Lovenox (enoxaparin)</a></li>
+	<li><a class="dropdown-item" href="#">Lyrica (pregabalin)</a></li>
+	<li><a class="dropdown-item" href="#">Junel Fe 1/20 (ethinyl estradiol / norethindrone)</a></li>
+	<li><a class="dropdown-item" href="#">Jardiance (empagliflozin)</a></li>
+	<li><a class="dropdown-item" href="#">Keytruda (pembrolizumab)</a></li>
+	<li><a class="dropdown-item" href="#">Motrin (ibuprofen)</a></li>
+	<li><a class="dropdown-item" href="#">Mobic (meloxicam)</a></li>
+	<li><a class="dropdown-item" href="#">Mylanta (aluminum hydroxide / magnesium hydroxide / simethicone)</a></li>
+	<li><a class="dropdown-item" href="#">Norco (acetaminophen / hydrocodone)</a></li>
+	<li><a class="dropdown-item" href="#">Novolin N (insulin isophane)</a></li>
+	<li><a class="dropdown-item" href="#">Pepcid (famotidine)</a></li>
+	<li><a class="dropdown-item" href="#">Plaquenil (hydroxychloroquine)</a></li>
+	<li><a class="dropdown-item" href="#">Unisom SleepTabs (doxylamine)</a></li>
+	<li><a class="dropdown-item" href="#">Zyprexa (olanzapine)</a></li>
+  </ul>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    $('#2nd_pill_dropdown .dropdown-item').click(function () { // Target the specific dropdown by its ID
+      var selectedValue = $(this).text();
+      $('#2nd_pill_dropdown .dropdown-toggle').text(selectedValue);
+    });
+  });
+</script>
+
+<br><br>
+
+<!-- Button to check interaction -->
+
+<div id="user-defined-msg"></div>
+
+<button class="btn btn-primary" id="checkInteractionButton" onfocus="readAloud('Check Interaction Button')">Check Interaction</button>
+<br><br>
+<h4 id="resultMessage"></h4> <!-- Add an h3 element to display the message -->
+
+<script>
+  $(document).ready(function () {
+    $('#1st_pill_dropdown .dropdown-item').click(function () {
+      var selectedValue = $(this).text();
+      $('#1st_pill_dropdown .dropdown-toggle').text(selectedValue);
+	  
+    });
+
+    $('#2nd_pill_dropdown .dropdown-item').click(function () {
+      var selectedValue = $(this).text();
+      $('#2nd_pill_dropdown .dropdown-toggle').text(selectedValue);
+    });
+
+    $('#checkInteractionButton').click(function () {
+      // Get the selected values from both dropdowns
+      var selectedValue1 = $('#1st_pill_dropdown .dropdown-toggle').text();
+      var selectedValue2 = $('#2nd_pill_dropdown .dropdown-toggle').text();
+	
+      var userDefinedMessage;
+
+	//Conditions for interaction checking
+	
+	if (selectedValue1 === 'Abilify (aripiprazole)' && selectedValue2 === 'Adderall (amphetamine / dextroamphetamine) ') 
+	{
+		userDefinedMessage = "No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.";
+	}
+	else
+		if(selectedValue1 === 'Augmentin (amoxicillin / clavulanate)' && selectedValue2 === 'Ativan (lorazepam)')
+		{
+			userDefinedMessage = "No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.";
+		}
+		else
+			if(selectedValue1 === 'Advair Diskus (fluticasone / salmeterol)' && selectedValue2 === 'Ambien (zolpidem)')
+			{
+				userDefinedMessage = "<strong>MINOR</strong> - fluticasone & salmeterol."+
+				"<p><strong>Applies to:</strong> Advair Diskus (fluticasone / salmeterol), Advair Diskus (fluticasone / salmeterol)."+ 
+				"<p>Although they are often combined in clinical practice, the concomitant use of beta-2 adrenergic agonists and corticosteroids may result in additive hypokalemic effects. Since beta-2 agonists can sometimes cause QT interval prolongation, the development of hypokalemia may potentiate the risk of ventricular arrhythmias including torsade de pointes. However, clinical data are limited, and the potential significance is unknown. Patients who are receiving systemic or nebulized formulations of beta-2 agonists, high dosages of inhaled beta-2 agonists, or systemic corticosteroid therapy may be at a greater risk of developing hypokalemia.";
+	
+			}
+			else
+				if(selectedValue1 === 'Auvelity (bupropion / dextromethorphan)' && selectedValue2 === 'Azithromycin Dose Pack (azithromycin)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - buPROPion & dextromethorphan"+
+					"<p><strong>Applies to:</strong> Auvelity (bupropion / dextromethorphan), Auvelity (bupropion / dextromethorphan)"+
+					"<p><strong>ADJUST DOSE:</strong> Coadministration with bupropion may increase the plasma concentrations of drugs that are metabolized by CYP450 2D6 (e.g., selective serotonin reuptake inhibitors; tricyclic antidepressants; some beta blockers, antiarrhythmics, and antipsychotics). The mechanism is decreased clearance due to inhibition of CYP450 2D6 activity by bupropion. Approximately 93% of Caucasians and more than 98% of Asians and individuals of African descent are extensive metabolizers of CYP450 2D6 and may be affected by this interaction. In a study of 15 male volunteers who were extensive metabolizers of CYP450 2D6, administration of a single 50 mg dose of desipramine following treatment with bupropion 150 mg twice daily increased the desipramine peak plasma concentration (Cmax), systemic exposure (AUC) and half-life by an average of 2-, 5-, and 2-fold, respectively. The effect was present for at least 7 days after the last dose of bupropion. A case report describes a 4-fold increase in plasma levels of imipramine and its metabolite, desipramine, in a 64-year-old woman following the addition of bupropion 225 mg/day. Plasma levels of desipramine were increased twofold more than the imipramine levels, which is consistent with the fact that desipramine is primarily metabolized by CYP450 2D6 while imipramine is also metabolized by other CYP450 isoenzymes. In another report, an 83-year-old woman became unsteady, confused, and lethargic following the addition of bupropion SR 300 mg/day. Her nortriptyline level was found to have increased by 185%. A later rechallenge prompted recurrence of the interaction. Likewise, a 62-year-old woman with no history of seizures developed a generalized tonic-clonic seizure in association with toxic trimipramine plasma levels following the addition of bupropion 300 mg/day. No further seizures occurred following dosage reductions of both drugs." +
+					"<strong><p>MANAGEMENT:</strong> Caution is advised if bupropion must be used concomitantly with medications that undergo metabolism by CYP450 2D6, particularly those with a narrow therapeutic range. Concomitant medications should be initiated at the lower end of the dose range. Clinical and laboratory monitoring may be appropriate for some drugs whenever bupropion is added to or withdrawn from therapy.";
+				}
+				else
+				if(selectedValue1 === 'Arimidex (anastrozole)' && selectedValue2 === 'Benadryl (diphenhydramine)')
+				{
+					userDefinedMessage = "No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.";
+				}
+				else
+				if(selectedValue1 === 'Basaglar (insulin glargine)' && selectedValue2 === 'Bactroban (mupirocin topical)')
+				{
+					userDefinedMessage = "No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.";
+				}
+				else
+				if(selectedValue1 === 'Benicar (olmesartan)' && selectedValue2 === 'Bentyl (dicyclomine)')
+				{
+					userDefinedMessage = "No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.";
+				}
+				else
+				if(selectedValue1 === 'Bactrim DS (sulfamethoxazole / trimethoprim)' && selectedValue2 === 'Basaglar (insulin glargine)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - sulfamethoxazole & insulin glargine"+
+					"<p><strong>Applies to:</strong> Bactrim DS (sulfamethoxazole / trimethoprim), Basaglar (insulin glargine)"+
+					"<p><strong>MONITOR:</strong> The hypoglycemic effect of insulin may be potentiated by certain drugs, including ACE inhibitors, angiotensin receptor blockers (ARBs), 4-aminoquinolines, amylin analogs, anabolic steroids, fibrates, monoamine oxidase inhibitors (MAOIs, including linezolid), salicylates, selective serotonin reuptake inhibitors (SSRIs), sulfonamides, disopyramide, propoxyphene, quinidine, quinine, and ginseng. These drugs may increase the risk of hypoglycemia by enhancing insulin sensitivity (ACE inhibitors, ARBs, fibrates, ginseng); stimulating insulin secretion (salicylates, disopyramide, pentoxifylline, propoxyphene, quinidine, quinine, MAOIs, ginseng); decreasing insulin clearance and resistance (4-aminoquinolines); increasing peripheral glucose utilization (SSRIs, insulin-like growth factor); inhibiting gluconeogenesis (SSRIs, MAOIs, insulin-like growth factor); slowing the rate of gastric emptying (amylin analogs); and/or suppressing postprandial glucagon secretion (amylin analogs). Clinical hypoglycemia has been reported during use of some of these agents alone or with insulin and/or insulin secretagogues. Use of SSRIs has also been associated with loss of awareness of hypoglycemia in isolated cases."+
+					"<p><strong>MANAGEMENT:</strong> Close monitoring for the development of hypoglycemia is recommended if these drugs are coadministered with insulin, particularly in patients with advanced age and/or renal impairment. The insulin dosage may require adjustment if an interaction is suspected. Patients should be apprised of the signs and symptoms of hypoglycemia (e.g., headache, dizziness, drowsiness, nausea, hunger, tremor, weakness, sweating, palpitations), how to treat it, and to contact their physician if it occurs. Patients should be observed for loss of glycemic control when these drugs are withdrawn.";
+				}
+				else
+				if(selectedValue1 === 'Boniva (ibandronate)' && selectedValue2 === 'Breztri Aerosphere (budesonide / formoterol / glycopyrrolate)')
+				{
+					userDefinedMessage = "<strong>MINOR</strong> - budesonide & formoterol"+
+					"<p><strong>Applies to:</strong> Breztri Aerosphere (budesonide / formoterol / glycopyrrolate), Breztri Aerosphere (budesonide / formoterol / glycopyrrolate)"+
+					"<p>Although they are often combined in clinical practice, the concomitant use of beta-2 adrenergic agonists and corticosteroids may result in additive hypokalemic effects. Since beta-2 agonists can sometimes cause QT interval prolongation, the development of hypokalemia may potentiate the risk of ventricular arrhythmias including torsade de pointes. However, clinical data are limited, and the potential significance is unknown. Patients who are receiving systemic or nebulized formulations of beta-2 agonists, high dosages of inhaled beta-2 agonists, or systemic corticosteroid therapy may be at a greater risk of developing hypokalemia.";
+					
+				}
+				else
+				if(selectedValue1 === 'Bactrim DS (sulfamethoxazole / trimethoprim)' && selectedValue2 === 'Belbuca (buprenorphine)')
+				{
+					userDefinedMessage = "<strong>MINOR</strong> - sulfamethoxazole & buprenorphine"+
+					"<p><strong>Applies to:</strong> Bactrim DS (sulfamethoxazole / trimethoprim), Belbuca (buprenorphine)"+
+					"<p>Limited data suggest that sulfamethoxazole-trimethoprim (SMX-TMP) may rarely prolong the QT interval of the electrocardiogram. Theoretically, coadministration with other agents that can prolong the QT interval may result in additive effects and increased risk of ventricular arrhythmias including torsade de pointes and sudden death. There have been isolated reports of QT prolongation and ventricular arrhythmias occurring in patients treated with SMX-TMP intravenously. However, a causal relationship has not been established, and the risk of clinically significant QT prolongation is unlikely at recommended dosages of SMX-TMP. In general, the risk of an individual agent or a combination of agents causing ventricular arrhythmia in association with QT prolongation is largely unpredictable but may be increased by certain underlying risk factors such as congenital long QT syndrome, cardiac disease, and electrolyte disturbances (e.g., hypokalemia, hypomagnesemia). In addition, the extent of drug-induced QT prolongation is dependent on the particular drug(s) involved and dosage(s) of the drug(s). Patients should be advised to seek prompt medical attention if they experience symptoms that could indicate the occurrence of torsade de pointes such as dizziness, lightheadedness, fainting, palpitation, irregular heart rhythm, shortness of breath, or syncope.";
+				}
+				else
+				if(selectedValue1 === 'Bactroban (mupirocin topical)' && selectedValue2 === 'Breo Ellipta (fluticasone / vilanterol)')
+				{
+					userDefinedMessage = "<strong>MINOR</strong> - fluticasone & vilanterol"+
+					"<p><strong>Applies to:</strong> Breo Ellipta (fluticasone / vilanterol), Breo Ellipta (fluticasone / vilanterol)"+
+					"<p>Although they are often combined in clinical practice, the concomitant use of beta-2 adrenergic agonists and corticosteroids may result in additive hypokalemic effects. Since beta-2 agonists can sometimes cause QT interval prolongation, the development of hypokalemia may potentiate the risk of ventricular arrhythmias including torsade de pointes. However, clinical data are limited, and the potential significance is unknown. Patients who are receiving systemic or nebulized formulations of beta-2 agonists, high dosages of inhaled beta-2 agonists, or systemic corticosteroid therapy may be at a greater risk of developing hypokalemia.";
+				}
+				else
+				if(selectedValue1 === 'Benicar (olmesartan)' && selectedValue2 === 'Bumex (bumetanide)')
+				{
+					userDefinedMessage = "No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.";
+				}
+				else
+				if(selectedValue1 === 'Biktarvy (bictegravir / emtricitabine / tenofovir alafenamide)' && selectedValue2 === 'Bromfed DM (brompheniramine / dextromethorphan / pseudoephedrine)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - dextromethorphan & brompheniramine"+
+					"<p><strong>Applies to:</strong> Bromfed DM (brompheniramine / dextromethorphan / pseudoephedrine), Bromfed DM (brompheniramine / dextromethorphan / pseudoephedrine)"+
+					"<p><strong>MONITOR:</strong> Central nervous system- and/or respiratory-depressant effects may be additively or synergistically increased in patients taking multiple drugs that cause these effects, especially in elderly or debilitated patients. Sedation and impairment of attention, judgment, thinking, and psychomotor skills may increase."+
+					"<p><strong>MANAGEMENT:</strong> During concomitant use of these drugs, patients should be monitored for potentially excessive or prolonged CNS and respiratory depression. Cautious dosage titration may be required, particularly at treatment initiation. Ambulatory patients should be counseled to avoid hazardous activities requiring mental alertness and motor coordination until they know how these agents affect them, and to notify their physician if they experience excessive or prolonged CNS effects that interfere with their normal activities.";
+				}
+				else
+				if(selectedValue1 === 'Cialis (tadalafil)' && selectedValue2 === 'Cymbalta (duloxetine)')
+				{
+					userDefinedMessage = "No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.";
+				}
+				else
+				if(selectedValue1 === 'Cipro (ciprofloxacin)' && selectedValue2 === 'Cymbalta (duloxetine)')
+				{
+					userDefinedMessage = "<strong>MAJOR</strong> - ciprofloxacin & DULoxetine"+
+					"<p><strong>Applies to:</strong> Cipro (ciprofloxacin), Cymbalta (duloxetine)"+
+					"<p><strong>GENERALLY AVOID:</strong> Coadministration with potent inhibitors of CYP450 1A2 may significantly increase the plasma concentrations of duloxetine, which is a substrate of the isoenzyme. In 14 male study subjects, coadministration with 100 mg fluvoxamine, a potent CYP450 1A2 inhibitor, resulted in a 2.5-fold increase in duloxetine peak plasma concentration (Cmax), a nearly 6-fold increase in duloxetine systemic exposure (AUC), and an approximately 3-fold increase in duloxetine half-life. High plasma levels of duloxetine may increase the risk of serious adverse effects such as hypertension, hypertensive crisis, increased heart rate, orthostatic hypotension, syncope, and serotonin syndrome. Serotonin syndrome is a rare but serious and potentially fatal condition thought to result from hyperstimulation of brainstem 5-HT1A and 2A receptors. Symptoms may include mental status changes such as irritability, altered consciousness, confusion, hallucinations, and coma; autonomic dysfunction such as tachycardia, hyperthermia, diaphoresis, shivering, blood pressure lability, and mydriasis; neuromuscular abnormalities such as hyperreflexia, myoclonus, tremor, and ataxia; and gastrointestinal symptoms such as abdominal cramping, nausea, vomiting, and diarrhea."+
+					"<p><strong>MANAGEMENT:</strong> Concomitant use of duloxetine with potent CYP450 1A2 inhibitors such as fluvoxamine, ciprofloxacin, or enoxacin should be avoided.";
+				}
+				else
+				if(selectedValue1 === 'Contrave (bupropion / naltrexone)' && selectedValue2 === 'Cymbalta (duloxetine)')
+				{
+					userDefinedMessage = "<strong>MAJOR</strong> - buPROPion & DULoxetine"+
+					"<p><strong>Applies to:</strong> Contrave (bupropion / naltrexone), Cymbalta (duloxetine)"+
+					"<p><strong>MONITOR CLOSELY:</strong> The use of bupropion is associated with a dose-related risk of seizures. The risk may be further increased when coadministered with other agents that can reduce the seizure threshold, including antidepressants, CNS stimulants, acetylcholinesterase inhibitors, phenothiazines, and dopaminergic blocking agents such as neuroleptics and metoclopramide. These agents are often individually epileptogenic and may have additive effects when combined. The estimated incidence of seizures is approximately 0.4% for immediate-release bupropion hydrochloride at dosages between 300 to 450 mg/day (equivalent to 348 to 522 mg/day of bupropion hydrobromide), but increases almost tenfold between 450 mg and 600 mg/day (equivalent to 522 and 696 mg/day of bupropion hydrobromide). Data for sustained-release (SR) bupropion hydrochloride revealed a seizure incidence of approximately 0.1% at dosages up to 300 mg/day and 0.4% at 400 mg/day. Likewise, in clinical trials, an overall seizure incidence of approximately 0.1% has been reported with extended-release (XL) bupropion hydrochloride at dosages up to 450 mg/day and approximately 0.39% at 450 mg/day. The 0.4% seizure incidence may exceed that of other marketed antidepressants by as much as 4-fold."+
+					"<p><strong>MANAGEMENT:</strong> Extreme caution is advised if bupropion is administered with any substance that can reduce the seizure threshold, particularly in the elderly and in patients with a history of seizures or other risk factors for seizures (e.g., head trauma; brain tumor; severe hepatic cirrhosis; metabolic disorders; CNS infections; excessive use of alcohol or sedatives; addiction to opiates, cocaine, or stimulants; diabetes treated with oral hypoglycemic agents or insulin). Bupropion as well as concomitant medications should be initiated at the lower end of the dosage range and titrated gradually as needed and as tolerated. The maximum recommended dosage for the specific bupropion formulation should not be exceeded. Clinical and laboratory monitoring may be appropriate for concomitant medications that are substrates of CYP450 2D6 whenever bupropion is added to or withdrawn from therapy. Bupropion should be discontinued and not restarted in patients who experience a seizure during treatment.";
+				}
+				else
+				if(selectedValue1 === 'Compazine (prochlorperazine)' && selectedValue2 === 'Cymbalta (duloxetine)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - prochlorperazine & DULoxetine"+
+					"<p><strong>Applies to:</strong> Compazine (prochlorperazine), Cymbalta (duloxetine)"+
+					"<p><strong>MONITOR:</strong> Duloxetine is a moderate inhibitor of CYP450 2D6 and may increase the plasma concentrations of drugs that are substrates of the isoenzyme. According to the product labeling, when duloxetine (60 mg twice a day) was administered in conjunction with a single 50 mg dose of desipramine, a CYP450 2D6 substrate, the systemic exposure (AUC) of desipramine increased 3-fold. Conversely, many CYP450 2D6 substrates can also be competitive or noncompetitive inhibitors of the isoenzyme and may increase the plasma concentrations of duloxetine, which is partially metabolized by CYP450 2D6."+
+					"<p><strong>MANAGEMENT:</strong> Caution is advised if duloxetine must be used concomitantly with medications that undergo metabolism by CYP450 2D6, particularly those with a narrow therapeutic range such as tricyclic antidepressants, phenothiazines, beta blockers, and class IC antiarrhythmic agents (e.g., propafenone, flecainide). A lower initial dosage, as well as clinical and laboratory monitoring, may be appropriate for some drugs.";
+				}
+				else
+				if(selectedValue1 === 'Chantix (varenicline)' && selectedValue2 === 'Compazine (prochlorperazine)')
+				{
+					userDefinedMessage = "No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.";
+				}
+				else
+				if(selectedValue1 === 'Chantix (varenicline)' && selectedValue2 === 'Coreg (carvedilol)')
+				{
+					userDefinedMessage = "No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.";
+				}
+				else
+				if(selectedValue1 === 'Contrave (bupropion / naltrexone)' && selectedValue2 === 'Creon (pancrelipase)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - buPROPion & naltrexone"+
+					"<p><strong>Applies to:</strong> Contrave (bupropion / naltrexone), Contrave (bupropion / naltrexone)"+
+					"<p><strong>GENERALLY AVOID:</strong> Coadministration of naltrexone with other agents known to induce hepatotoxicity may potentiate the risk of liver injury. Naltrexone, especially in larger than recommended doses (more than 50 mg/day), has been associated with hepatocellular injury, hepatitis, and elevations in liver transaminases and bilirubin. Other potential causative or contributory etiologies identified include preexisting alcoholic liver disease, hepatitis B and/or C infection, and concomitant usage of other hepatotoxic drugs."+
+					"<p><strong>MANAGEMENT:</strong> The use of naltrexone with other potentially hepatotoxic agents should be avoided whenever possible (e.g., acetaminophen; alcohol; androgens and anabolic steroids; antituberculous agents; azole antifungal agents; ACE inhibitors; cyclosporine (high dosages); disulfiram; endothelin receptor antagonists; interferons; ketolide and macrolide antibiotics; kinase inhibitors; minocycline; nonsteroidal anti-inflammatory agents; nucleoside reverse transcriptase inhibitors; proteasome inhibitors; retinoids; sulfonamides; tamoxifen; thiazolidinediones; tolvaptan; vincristine; zileuton; anticonvulsants such as carbamazepine, hydantoins, felbamate, and valproic acid; lipid-lowering medications such as fenofibrate, lomitapide, mipomersen, niacin, and statins; herbals and nutritional supplements such as black cohosh, chaparral, comfrey, DHEA, kava, pennyroyal oil, and red yeast rice). Patients should be advised to seek medical attention if they experience potential signs and symptoms of hepatotoxicity such as fever, rash, itching, anorexia, nausea, vomiting, fatigue, malaise, right upper quadrant pain, dark urine, pale stools, and jaundice. Periodic monitoring of hepatic function is advisable.";
+				}
+				else
+				if(selectedValue1 === 'Depakote (divalproex sodium)' && selectedValue2 === 'Dulcolax (bisacodyl)')
+				{
+					userDefinedMessage = "No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.";
+				}
+				else
+				if(selectedValue1 === 'Elavil (amitriptyline)' && selectedValue2 === 'Entresto (sacubitril / valsartan)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - amitriptyline & valsartan"+
+					"<p><strong>Applies to:</strong> Elavil (amitriptyline), Entresto (sacubitril / valsartan)"+
+					"<p><strong>MONITOR:</strong> Many psychotherapeutic and CNS-active agents (e.g., anxiolytics, sedatives, hypnotics, antidepressants, antipsychotics, opioids, alcohol, muscle relaxants) exhibit hypotensive effects, especially during initiation of therapy and dose escalation. Coadministration with antihypertensives and other hypotensive agents, in particular vasodilators and alpha-blockers, may result in additive effects on blood pressure and orthostasis."+
+					"<p><strong>MANAGEMENT:</strong> Caution and close monitoring for development of hypotension is advised during coadministration of these agents. Some authorities recommend avoiding alcohol in patients receiving vasodilating antihypertensive drugs. Patients should be advised to avoid rising abruptly from a sitting or recumbent position and to notify their physician if they experience dizziness, lightheadedness, syncope, orthostasis, or tachycardia.";
+				}
+				else
+				if(selectedValue1 === 'Evista (raloxifene)' && selectedValue2 === 'Excedrin Migraine (acetaminophen / aspirin / caffeine)')
+				{
+					userDefinedMessage = "<strong>MINOR</strong> - aspirin & caffeine"+
+					"<p><strong>Applies to:</strong> Excedrin Migraine (acetaminophen / aspirin / caffeine), Excedrin Migraine (acetaminophen / aspirin / caffeine)"+
+					"<p>One study has reported that coadministration of caffeine and aspirin lead to a 25% increase in the rate of appearance and 17% increase in maximum concentration of salicylate in the plasma. A significantly higher area under the plasma concentration time curve of salicylate was also reported when both drugs were administered together. The exact mechanism of this interaction has not been specified. Physicians and patients should be aware that coadministration of aspirin and caffeine may lead to higher salicylate levels faster.";
+				}
+				else
+				if(selectedValue1 === 'Estrace (estradiol)' && selectedValue2 === 'Evista (raloxifene)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - estradiol & raloxifene"+
+					"<p><strong>Applies to:</strong> Estrace (estradiol), Evista (raloxifene)"+
+					"<p><strong>GENERALLY AVOID:</strong> The concurrent use of raloxifene and systemic estrogen or hormone replacement therapy has not been evaluated in prospective clinical trials. Safety and efficacy of this combination are unknown. However, concomitant use of vaginal estrogen preparations was allowed in clinical trials for treatment of atrophic vaginal symptoms if necessary."+
+					"<p><strong>MANAGEMENT:</strong> Due to the lack of clinical data, use of raloxifene with systemic estrogens is not recommended.";
+				}
+				else
+				if(selectedValue1 === 'Elavil (amitriptyline)' && selectedValue2 === 'Eligard (leuprolide)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - amitriptyline & leuprolide"+
+					"<p><strong>Applies to:</strong> Elavil (amitriptyline), Eligard (leuprolide)"+
+					"<p><strong>GENERALLY AVOID:</strong> Long-term androgen deprivation therapy can prolong the QT interval. Theoretically, coadministration with other agents that can prolong the QT interval may result in additive effects and increased risk of ventricular arrhythmias including torsade de pointes and sudden death. In a single, active-controlled, clinical study comparing abarelix to LHRH (luteinizing hormone releasing hormone) agonist plus nonsteroidal antiandrogen therapy, both therapies were found to prolong the mean Fridericia-corrected QT interval (QTcF) by more than 10 msec from baseline. In approximately 20% of patients in both groups, there were either changes from baseline QTc of greater than 30 msec or end-of-treatment QTc values exceeding 450 msec. Similar results were observed in two other Phase 3 studies with abarelix and the active-control treatments. In a randomized, active-controlled trial comparing degarelix to leuprolide, three patients (<1%) in the pooled degarelix group and four patients (2%) in the leuprolide 7.5 mg group had a QTcF of 500 ms or greater. From baseline to end of study, the median change was 12.3 msec for degarelix and 16.7 msec for leuprolide. Investigators believe that long-term androgen deprivation is responsible for these changes, as testosterone has been found to shorten ventricular repolarization. In general, the risk of an individual agent or a combination of agents causing ventricular arrhythmia in association with QT prolongation is largely unpredictable but may be increased by certain underlying risk factors such as congenital long QT syndrome, cardiac disease, and electrolyte disturbances (e.g., hypokalemia, hypomagnesemia). In addition, the extent of drug-induced QT prolongation is dependent on the particular drug(s) involved and dosage(s) of the drug(s)."+
+					"<p><strong>MANAGEMENT:</strong> The benefits of androgen deprivation therapy should be carefully assessed against the potential risk in patients receiving other drugs known to prolong the QT interval. Electrolyte abnormalities should be corrected prior to initiating therapy, and periodic monitoring of electrocardiograms and electrolytes should be considered.";
+				}
+				else
+				if(selectedValue1 === 'Flagyl (metronidazole)' && selectedValue2 === 'Flonase (fluticasone nasal)')
+				{
+					userDefinedMessage = "No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.";
+				}
+				else
+				if(selectedValue1 === 'Herceptin (trastuzumab)' && selectedValue2 === 'Humira (adalimumab)')
+				{
+					userDefinedMessage = "<strong>MAJOR</strong> - trastuzumab & adalimumab"+
+					"<p><strong>Applies to:</strong> Herceptin (trastuzumab), Humira (adalimumab)"+
+					"<p><strong>MONITOR CLOSELY:</strong> The use of tumor necrosis factor (TNF) blockers with other immunosuppressive or myelosuppressive agents may increase the risk of infections. Serious infections and sepsis, including fatalities, have been reported with the use of TNF blockers, particularly in patients on concomitant immunosuppressive therapy. Agents that may be significantly myelo- or immunosuppressive include antineoplastic agents, radiation, zidovudine, linezolid, some antirheumatic agents, high dosages of corticosteroids or adrenocorticotropic agents (greater than 10 mg/day to 1 mg/kg/day, whichever is less, of prednisone or equivalent for more than 2 weeks), and long-term topical or inhaled corticosteroids. Concomitant use of TNF blockers with other immunosuppressants such as azathioprine or mercaptopurine may also increase the risk of a rare and often fatal cancer of white blood cells known as hepatosplenic T-Cell lymphoma (HSTCL), which has primarily been reported in adolescent and young adult males receiving treatment for Crohn's disease or ulcerative colitis. Cases of HSTCL have also occurred during use of these agents alone. Because individuals with rheumatoid arthritis, Crohn's disease, ankylosing spondylitis, psoriatic arthritis, or plaque psoriasis may be more likely to develop lymphoma than the general population, it is difficult to assess the added risk of TNF blockers, azathioprine, and/or mercaptopurine."+
+					"<p><strong>MANAGEMENT:</strong> Patients receiving a TNF blocker alone or with other immunosuppressive or myelosuppressive agents should be monitored closely for the development of infections. TNF blocker therapy should be discontinued if a serious infection or sepsis occurs. Close monitoring for signs and symptoms of HSTCL (e.g., splenomegaly, hepatomegaly, abdominal pain, persistent fever, night sweats, weight loss) is also recommended during use of TNF blockers, particularly in combination with other immunosuppressants such as azathioprine and mercaptopurine.";
+				}
+				else
+				if(selectedValue1 === 'Imdur (isosorbide mononitrate)' && selectedValue2 === 'Imuran (azathioprine)')
+				{
+					userDefinedMessage = "No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.";
+				}
+				else
+				if(selectedValue1 === 'Ingrezza (valbenazine)' && selectedValue2 === 'Invega (paliperidone)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - paliperidone & valbenazine"+
+					"<p><strong>Applies to:</strong> Invega (paliperidone), Ingrezza (valbenazine)"+
+					"<p><strong>MONITOR:</strong> Valbenazine may cause modest prolongation of the QT interval. Theoretically, coadministration with other agents that can prolong the QT interval may result in additive effects and increased risk of ventricular arrhythmias including torsade de pointes and sudden death. In healthy volunteers, an 80 mg dose of valbenazine has been shown to increase the QTc by an average of 6.7 msec. This increase is not considered clinically significant at the concentrations expected with the manufacturer-recommended dosing regimen. However, analysis of clinical data from two studies in healthy volunteers showed increased QTc intervals at higher plasma concentrations of the active metabolite of valbenazine, (+)-alfa-dihydrotetrabenazine. Metabolism by CYP450 3A4 and 2D6 are the primary pathways for elimination of valbenazine and (+)-alfa-dihydrotetrabenazine. Therefore, strong inhibitors of these isoenzymes or poor metabolizers of CYP450 2D6 (approximately 7% of Caucasians and 2% of Asians and those of African descent) may lead to increased exposure to valbenazine and (+)-alfa-dihydrotetrabenazine. Based on an 80 mg dose of valbenazine, patients with increased exposure to (+)-alfa-dihydrotetrabenazine may show QTc prolongation of an average of 11.7 msec. In general, the risk of an individual agent or a combination of agents causing ventricular arrhythmia in association with QT prolongation is largely unpredictable but may be increased by certain underlying risk factors such as congenital long QT syndrome, cardiac disease, and electrolyte disturbances (e.g., hypokalemia, hypomagnesemia). The extent of drug-induced QT prolongation is dependent on the particular drugs involved and the dosages of the drugs."+
+					"<p><strong>MONITOR:</strong> Central nervous system (CNS)-depressant effects may be additively or synergistically increased in patients taking valbenazine with certain other drugs that cause these effects, especially in elderly or debilitated patients."+
+					"<p><strong>MANAGEMENT:</strong> Caution and clinical monitoring are recommended if concomitant use of valbenazine with other drugs that can prolong the QT interval is required. Valbenazine is not recommended for use in patients with congenital long QT syndrome or with arrhythmias associated with a prolonged QT interval. In patients with other risk factors for QT prolongation, the QT interval should be assessed before increasing the dose of valbenazine. The manufacturer recommends that valbenazine dosage be reduced to 40 mg once daily in patients on concomitant therapy with a strong CYP450 3A4 inhibitor (e.g., itraconazole, ketoconazole, clarithromycin). Valbenazine dose reduction should also be considered in patients on concurrent therapy with a strong CYP450 2D6 inhibitor (e.g., paroxetine, fluoxetine, quinidine), or in patients who are poor metabolizers of CYP450 2D6. In addition, patients should be advised to seek prompt medical attention if they experience symptoms that could indicate the occurrence of torsade de pointes such as dizziness, lightheadedness, fainting, palpitation, irregular heart rhythm, shortness of breath, or syncope. When valbenazine is used in combination with other drugs that cause CNS depression, patients should be monitored for potentially excessive or prolonged CNS depression. Ambulatory patients should be counseled to avoid hazardous activities requiring mental alertness and motor coordination until they know how these agents affect them, and to notify their doctor if they experience excessive or prolonged CNS effects that interfere with their normal activities.";
+				}
+				else
+				if(selectedValue1 === 'Indocin (indomethacin)' && selectedValue2 === 'Invega (paliperidone)')
+				{
+					userDefinedMessage = "No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.";
+				}
+				else
+				if(selectedValue1 === 'Jardiance (empagliflozin)' && selectedValue2 === 'Junel Fe 1/20 (ethinyl estradiol / norethindrone)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - ethinyl estradiol & empagliflozin"+
+					"<p><strong>Applies to:</strong> Junel Fe 1/20 (ethinyl estradiol / norethindrone), Jardiance (empagliflozin)"+
+					"<p><strong>MONITOR:</strong> The efficacy of insulin and other antidiabetic agents may be diminished by certain drugs, including atypical antipsychotics, corticosteroids, diuretics, estrogens, gonadotropin-releasing hormone agonists, human growth hormone, phenothiazines, progestins, protease inhibitors, sympathomimetic amines, thyroid hormones, L-asparaginase, alpelisib, copanlisib, danazol, diazoxide, isoniazid, megestrol, omacetaxine, phenytoin, sirolimus, tagraxofusp, temsirolimus, as well as pharmacologic dosages of nicotinic acid and adrenocorticotropic agents. These drugs may interfere with blood glucose control because they can cause hyperglycemia, glucose intolerance, new-onset diabetes mellitus, and/or exacerbation of preexisting diabetes."+
+					"<p><strong>MANAGEMENT:</strong> Caution is advised when drugs that can interfere with glucose metabolism are prescribed to patients with diabetes. Close clinical monitoring of glycemic control is recommended following initiation or discontinuation of these drugs, and the dosages of concomitant antidiabetic agents adjusted as necessary. Patients should be advised to notify their physician if their blood glucose is consistently high or if they experience symptoms of severe hyperglycemia such as excessive thirst and increases in the volume or frequency of urination. Likewise, patients should be observed for hypoglycemia when these drugs are withdrawn from their therapeutic regimen.";
+				}
+				else
+				if(selectedValue1 === 'Jadenu (deferasirox)' && selectedValue2 === 'Jevtana (cabazitaxel)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - deferasirox & cabazitaxel"+
+					"<p><strong>Applies to:</strong> Jadenu (deferasirox), Jevtana (cabazitaxel)"+
+					"<p><strong>GENERALLY AVOID:</strong> Coadministration with potent inducers of CYP450 3A4 may significantly decrease the plasma concentrations of cabazitaxel, which is primarily metabolized by the isoenzyme. However, no formal drug interaction studies have been conducted."+
+					"<p><strong>MANAGEMENT:</strong> Concomitant use of cabazitaxel with potent CYP450 3A4 inducers such as apalutamide, carbamazepine, enzalutamide, lumacaftor, mitotane, phenobarbital, phenytoin, primidone (partially metabolized to phenobarbital), rifamycins, and St. John's wort should generally be avoided. The extent to which other, less potent CYP450 3A4 inducers may interact with cabazitaxel is unknown. Caution is advised if they are used with cabazitaxel.";
+				}
+				else
+				if(selectedValue1 === 'Kayexalate (sodium polystyrene sulfonate)' && selectedValue2 === 'Klonopin (clonazepam)')
+				{
+					userDefinedMessage = "No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.";
+				}
+				else
+				if(selectedValue1 === 'Ketalar (ketamine)' && selectedValue2 === 'Kisqali (ribociclib)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - ketamine & ribociclib"+
+					"<p><strong>Applies to:</strong> Ketalar (ketamine), Kisqali (ribociclib)"+
+					"<p><strong>MONITOR:</strong> Coadministration with ribociclib may increase the plasma concentrations and pharmacologic effects of drugs that are substrates of CYP450 3A4. The proposed mechanism is decreased clearance due to ribociclib-mediated inhibition of CYP450 3A4 metabolism. In healthy study subjects, administration of midazolam, a sensitive CYP450 3A4 substrate, with multiple 400 mg daily doses of ribociclib increased the midazolam peak plasma concentration (Cmax) and systemic exposure (AUC) by 2.1-fold and 3.8-fold, respectively, compared to midazolam administered alone. When given at a clinically relevant dose of 600 mg daily, ribociclib is predicted to increase midazolam Cmax and AUC by 2.4-fold and 5.2-fold, respectively."+
+					"<p><strong>MANAGEMENT:</strong> Caution is advised when ribociclib is used concomitantly with drugs that undergo metabolism by CYP450 3A4, particularly those with a narrow therapeutic range. Dosage adjustments as well as clinical and laboratory monitoring may be appropriate for some drugs whenever ribociclib is added to or withdrawn from therapy.";
+				}
+				else
+				if(selectedValue1 === 'Kerendia (finerenone)' && selectedValue2 === 'Klor-Con (potassium chloride)')
+				{
+					userDefinedMessage = "<strong>MAJOR</strong> - potassium chloride & finerenone"+
+					"<p><strong>Applies to:</strong> Klor-Con (potassium chloride), Kerendia (finerenone)"+
+					"<p><strong>MONITOR CLOSELY:</strong> Concomitant use of other drugs that can increase serum potassium such as potassium-containing preparations, potassium-sparing diuretics, aldosterone receptor antagonists, angiotensin converting enzyme (ACE) inhibitors, angiotensin II receptor antagonists, and renin inhibitors may potentiate the risk of hyperkalemia during treatment with finerenone. Patients with renal impairment, dehydration, diabetes, adrenal disease, old age, and severe or worsening heart failure may be at greater risk."+
+					"<p><strong>MANAGEMENT:</strong> Serum potassium and renal function should be measured prior to initiation of finerenone and monitored throughout treatment, and the dosage adjusted as appropriate in accordance with the product label. More frequent monitoring may be required during concomitant therapy with other agents that can cause hyperkalemia and in patients with higher baseline potassium levels or other risk factors for hyperkalemia. Patients should be advised to seek medical attention if they experience signs and symptoms of hyperkalemia such as nausea, vomiting, weakness, listlessness, tingling of the extremities, paralysis, confusion, weak pulse, and a slow or irregular heartbeat.";
+				}
+				else
+				if(selectedValue1 === 'Lasix (furosemide)' && selectedValue2 === 'Latuda (lurasidone)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - furosemide & lurasidone"+
+					"<p><strong>Applies to:</strong> Lasix (furosemide), Latuda (lurasidone)"+
+					"<p><strong>MONITOR:</strong> Phenothiazines and neuroleptic agents may potentiate the hypotensive effect of some medications secondary to their peripheral alpha-1 adrenergic blocking activity. Orthostatic hypotension and syncope associated with vasodilation may occur, particularly during initial dosing and/or parenteral administration of the phenothiazine or neuroleptic."+
+					"<p><strong>MANAGEMENT:</strong> Close clinical monitoring for development of hypotension is recommended if phenothiazines or neuroleptic agents are used in patients receiving antihypertensive medications or vasodilators. A lower starting dosage and slower titration of the phenothiazine or neuroleptic may be appropriate, especially in the elderly. Patients should be advised to avoid rising abruptly from a sitting or recumbent position and to notify their physician if they experience dizziness, lightheadedness, syncope, orthostasis, or tachycardia. Patients should also avoid driving or operating hazardous machinery until they know how the medications affect them.";
+				}
+				else
+				if(selectedValue1 === 'Lomotil (atropine / diphenoxylate)' && selectedValue2 === 'Lovenox (enoxaparin)')
+				{
+					userDefinedMessage = "No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.";
+				}
+				else
+				if(selectedValue1 === 'Lumigan (bimatoprost ophthalmic)' && selectedValue2 === 'Lyrica (pregabalin)')
+				{
+					userDefinedMessage = "No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.";
+				}
+				else
+				if(selectedValue1 === 'Jantoven (warfarin)' && selectedValue2 === 'Junel Fe 1/20 (ethinyl estradiol / norethindrone)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - warfarin & ethinyl estradiol"+
+					"<p><strong>Applies to:</strong> Jantoven (warfarin), Junel Fe 1/20 (ethinyl estradiol / norethindrone)"+
+					"<p><strong>GENERALLY AVOID:</strong> Concomitant therapy with estrogen-containing drugs may diminish the therapeutic effects of oral anticoagulants. Estrogens can increase the plasma levels of certain clotting factors such as fibrinogen, prothrombin, and factors VII and VIII in a dose-dependent manner, resulting in increased risk of thromboembolism, stroke, and/or myocardial infarction. The risk may be further increased by lifestyle choices such as smoking and lack of exercise."+
+					"<p><strong>MANAGEMENT:</strong> Use of estrogen-containing drugs should be avoided in patients receiving anticoagulant therapy unless benefits are anticipated to outweigh the risks. Close clinical and laboratory monitoring are recommended if the combination is prescribed. Patients should be advised to promptly notify their physician if they experience potential signs and symptoms of blood clots such as chest pain, shortness of breath, sudden loss of vision, and pain, redness or swelling in an extremity.";
+				}
+				else
+				if(selectedValue1 === 'Jalyn (dutasteride / tamsulosin)' && selectedValue2 === 'Jardiance (empagliflozin)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - tamsulosin & empagliflozin"+
+					"<p><strong>Applies to:</strong> Jalyn (dutasteride / tamsulosin), Jardiance (empagliflozin)"+
+					"<p><strong>MONITOR:</strong> Sodium-glucose co-transporter 2 (SGLT-2) inhibitors may potentiate the hypotensive effects of diuretics and other antihypertensive agents or vasodilators. Inhibition of glucose and sodium co-transport produces mild diuresis and transient natriuresis, resulting in intravascular volume contraction. Volume depletion-related adverse reactions including hypotension, postural dizziness, orthostatic hypotension, syncope, and dehydration can occur after initiating treatment with SGLT-2 inhibitors, and the risk may be increased with concomitant use of other agents that can lower blood pressure."+
+					"<p><strong>MANAGEMENT:</strong> Caution is advised if SGLT-2 inhibitors are coadministered with diuretics and other hypotensive agents, particularly in the elderly and patients with impaired renal function. Prior to initiating SGLT-2 inhibitors, volume status should be assessed and corrected, if necessary. Clinical and laboratory monitoring are recommended during therapy, including electrolytes, fluid status, renal function, and blood pressure. If volume depletion occurs, treatment with SGLT-2 inhibitors should be interrupted until the condition is corrected.";
+				}
+				else
+				if(selectedValue1 === 'Kenalog-40 (triamcinolone)' && selectedValue2 === 'Keytruda (pembrolizumab)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - triamcinolone & pembrolizumab"+
+					"<p><strong>Applies to:</strong> Kenalog-40 (triamcinolone), Keytruda (pembrolizumab)"+
+					"<p><strong>ADJUST DOSING INTERVAL:</strong> Corticosteroids may affect the pharmacodynamic effects and efficacy of immune checkpoint inhibitors (ICI) such as programmed cell death-1 (PD-1) or programmed death ligand-1 inhibitors (PD-L1). The mechanism of this interaction is unknown; however, it has been theorized that the immunosuppressive properties of corticosteroids and the potential effect on T-cell function may decrease the efficacy of ICIs. In a retrospective study in patients with advanced NSCLC (n=640), oral or intravenous corticosteroid use at doses of at least 10 mg prednisone equivalent per day at the time of or within 30 days of starting PD-1/PD-L1 blockade with either pembrolizumab, nivolumab, atezolizumab, or durvalumab (n=90) was associated with decreased response and overall poorer outcomes, compared to those who received and discontinued corticosteroid treatment prior to commencing PD-1/PD-L1 therapy. However, it is difficult to determine whether the corticosteroid use had unfavorable effects on patients starting ICI blockade or if corticosteroid use reflected a subgroup of patients with poorer prognosis. Significantly, the use of corticosteroids to manage immune related adverse effects after starting immune checkpoint blockade therapy has not shown negative effects on outcome survival or time to treatment failure."+
+					"<p><strong>MANAGEMENT:</strong> The manufacturers' product labeling should be consulted for specific recommendations. If clinically possible, the use of systemic corticosteroids (>=10 mg prednisone equivalent/day) should be avoided at the time of or within 30 days of starting therapy with an ICI, e.g., durvalumab, nivolumab, pembrolizumab, ipilimumab, cemiplimab, or atezolizumab. Corticosteroids may be used for the treatment of immune-mediated reactions after starting an ICI. Some manufacturers advise that corticosteroids may be used as premedication, when the ICI is used in combination with chemotherapy, as antiemetic prophylaxis, and/or to alleviate chemotherapy-related adverse effects.";
+				}
+				else
+				if(selectedValue1 === 'Metoprolol Succinate ER (metoprolol)' && selectedValue2 === 'Motrin (ibuprofen)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - ibuprofen & metoprolol"+
+					"<p><strong>Applies to:</strong> Motrin (ibuprofen), Metoprolol Succinate ER (metoprolol)"+
+					"<p><strong>MONITOR:</strong> Nonsteroidal anti-inflammatory drugs (NSAIDs) may attenuate the antihypertensive effect of beta-blockers. The proposed mechanism is NSAID-induced inhibition of renal prostaglandin synthesis, which results in unopposed pressor activity producing hypertension. In addition, NSAIDs can cause fluid retention, which also affects blood pressure. Indomethacin and piroxicam have been reported to have greater attenuating effects than other NSAIDs, and indomethacin effects may be significant in patients with eclampsia."+
+					"<p><strong>MANAGEMENT:</strong> Patients receiving a beta-blocker who require prolonged (greater than 1 week) concomitant therapy with an NSAID should have blood pressure monitored more closely following initiation, discontinuation, or change of dosage of the NSAID. The interaction is not expected to occur with low doses (e.g., low-dose aspirin) or intermittent short-term administration of NSAIDs.";
+				}
+				else
+				if(selectedValue1 === 'Mirena (levonorgestrel)' && selectedValue2 === 'Mobic (meloxicam)')
+				{
+					userDefinedMessage = "No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.";
+				}
+				else
+				if(selectedValue1 === 'Microzide (hydrochlorothiazide)' && selectedValue2 === 'Mylanta (aluminum hydroxide / magnesium hydroxide / simethicone)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - hydroCHLOROthiazide & magnesium hydroxide"+
+					"<p><strong>Applies to:</strong> Microzide (hydrochlorothiazide), Mylanta (aluminum hydroxide / magnesium hydroxide / simethicone)"+
+					"<p><strong>MONITOR:</strong> The chronic use or abuse of laxatives may potentiate the pharmacologic effects of diuretics. Laxatives can cause significant losses of fluid and electrolytes, including sodium, potassium, magnesium and zinc, and these effects may be additive to those of diuretics."+
+					"<p><strong>MANAGEMENT:</strong> In general, laxatives should only be used on a short-term, intermittent basis in recommended dosages. During concomitant use with diuretics, patients should be advised to contact their physician if they experience signs and symptoms of fluid and electrolyte depletion such as dizziness, lightheadedness, dry mouth, thirst, fatigue, weakness, lethargy, muscle cramps, decreased urination, postural hypotension, and tachycardia. If maintenance of bowel regularity is required, patients should be advised to exercise and increase fiber in the diet and/or consider the use of bulk-forming laxatives.";
+				}
+				else
+				if(selectedValue1 === 'Nitrostat (nitroglycerin)' && selectedValue2 === 'Norco (acetaminophen / hydrocodone)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - nitroglycerin & HYDROcodone"+
+					"<p><strong>Applies to:</strong> Nitrostat (nitroglycerin), Norco (acetaminophen / hydrocodone)"+
+					"<p><strong>MONITOR:</strong> Many psychotherapeutic and CNS-active agents (e.g., anxiolytics, sedatives, hypnotics, antidepressants, antipsychotics, opioids, alcohol, muscle relaxants) exhibit hypotensive effects, especially during initiation of therapy and dose escalation. Coadministration with antihypertensives and other hypotensive agents, in particular vasodilators and alpha-blockers, may result in additive effects on blood pressure and orthostasis."+
+					"<p><strong>MANAGEMENT:</strong> Caution and close monitoring for development of hypotension is advised during coadministration of these agents. Some authorities recommend avoiding alcohol in patients receiving vasodilating antihypertensive drugs. Patients should be advised to avoid rising abruptly from a sitting or recumbent position and to notify their physician if they experience dizziness, lightheadedness, syncope, orthostasis, or tachycardia.";
+				}
+				else
+				if(selectedValue1 === 'Nasonex (mometasone nasal)' && selectedValue2 === 'Novolin N (insulin isophane)')
+				{
+					userDefinedMessage = "No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.";
+				}
+				else
+				if(selectedValue1 === 'Omnicef (cefdinir)' && selectedValue2 === 'Pepcid (famotidine)')
+				{
+					userDefinedMessage = "No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.";
+				}
+				else
+				if(selectedValue1 === 'Pepcid (famotidine)' && selectedValue2 === 'Plaquenil (hydroxychloroquine)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - famotidine & hydroxychloroquine"+
+					"<p><strong>Applies to:</strong> Pepcid (famotidine), Plaquenil (hydroxychloroquine)"+
+					"<p><strong>MONITOR:</strong> Famotidine may cause QTc prolongation. Theoretically, coadministration with other agents that can prolong the QT interval may result in additive effects and increased risk of ventricular arrhythmias including torsade de pointes and sudden death. According to the manufacturer, prolongation of the QT interval has been reported very rarely in patients with impaired renal function whose dose/dosing interval of famotidine may not have been adjusted appropriately. In general, the risk of an individual agent or a combination of these agents causing ventricular arrhythmia in association with QT prolongation is largely unpredictable but may be increased by certain underlying risk factors such as congenital long QT syndrome, cardiac disease, and electrolyte disturbances (e.g., hypokalemia, hypomagnesemia). In addition, the extent of drug-induced QT prolongation is dependent on the particular drug(s) involved and dosage(s) of the drug(s)."+
+					"<p><strong>MANAGEMENT:</strong> Caution and clinical monitoring are recommended if famotidine is used in combination with other drugs that can prolong the QT interval. Patients should be advised to seek prompt medical attention if they experience symptoms that could indicate the occurrence of torsade de pointes such as dizziness, lightheadedness, fainting, palpitation, irregular heart rhythm, shortness of breath, or syncope.";
+				}
+				else
+				if(selectedValue1 === 'Unisom SleepGels (diphenhydramine)' && selectedValue2 === 'Unisom SleepTabs (doxylamine)')
+				{
+					userDefinedMessage = "<storng>MODERATE</strong> - diphenhydrAMINE & doxylamine"+
+					"<p><strong>Applies to:</strong> Unisom SleepGels (diphenhydramine), Unisom SleepTabs (doxylamine)"+
+					"<p><strong>MONITOR:</strong> Agents with anticholinergic properties (e.g., sedating antihistamines; antispasmodics; neuroleptics; phenothiazines; skeletal muscle relaxants; tricyclic antidepressants; disopyramide) may have additive effects when used in combination. Excessive parasympatholytic effects may result in paralytic ileus, hyperthermia, heat stroke, and the anticholinergic intoxication syndrome. Peripheral symptoms of intoxication commonly include mydriasis, blurred vision, flushed face, fever, dry skin and mucous membranes, tachycardia, urinary retention, and constipation. Central symptoms may include memory loss, disorientation, incoherence, hallucinations, psychosis, delirium, hyperactivity, twitching or jerking movements, stereotypy, and seizures. Central nervous system-depressant effects may also be additively or synergistically increased when these agents are combined, especially in elderly or debilitated patients. Use of neuroleptics in combination with other neuroleptics or anticholinergic agents may increase the risk of tardive dyskinesia. In addition, some neuroleptics and tricyclic antidepressants may cause prolongation of the QT interval and theoretically, concurrent use of two or more drugs that can cause QT interval prolongation may result in additive effects and increased risk of ventricular arrhythmias including torsade de pointes and sudden death."+
+					"<p><strong>MANAGEMENT:</strong> Caution is advised when agents with anticholinergic properties are combined, particularly in the elderly and those with underlying organic brain disease, who tend to be more sensitive to the central anticholinergic effects of these drugs and in whom toxicity symptoms may be easily overlooked. Patients should be advised to notify their physician promptly if they experience potential symptoms of anticholinergic intoxication such as abdominal pain, fever, heat intolerance, blurred vision, confusion, and/or hallucinations. Ambulatory patients should be counseled to avoid activities requiring mental alertness until they know how these agents affect them. A reduction in anticholinergic dosages may be necessary if excessive adverse effects develop.";
+				}
+				else
+				if(selectedValue1 === 'Zithromax (azithromycin)' && selectedValue2 === 'Zyprexa (olanzapine)')
+				{
+					userDefinedMessage = "<strong>MODERATE</strong> - azithromycin & OLANZapine"+
+					"<p><strong>Applies to:</strong> Zithromax (azithromycin), Zyprexa (olanzapine)"+
+					"<p><strong>MONITOR:</strong> It is uncertain whether olanzapine causes clinically significant prolongation of the QT interval. In pooled studies of adults as well as pooled studies of adolescents, there were no significant differences between olanzapine and placebo in the proportion of patients experiencing potentially important changes in ECG parameters, including QT, QTcF (Fridericia-corrected), and PR intervals. In clinical trials, clinically meaningful QTc prolongations (QTcF >=500 msec at any time post-baseline in patients with baseline QTcF <500 msec) occurred in 0.1% to 1% of patients treated with olanzapine, with no significant differences in associated cardiac events compared to placebo. Published studies have generally reported no significant effect of olanzapine on QTc interval, although both QTc prolongation and QTc shortening have also been reported. There have been a few isolated case reports of QT prolongation in patients receiving olanzapine. However, causality is difficult to establish due to confounding factors such as concomitant use of drugs that cause QT prolongation and underlying conditions that may predispose to QT prolongation (e.g., hypokalemia, congenital long QT syndrome, preexisting conduction abnormalities)."+
+					"<p><strong>MANAGEMENT:</strong> Some authorities recommend caution when olanzapine is used with drugs that are known to cause QT prolongation. ECG monitoring may be advisable in some cases, such as in patients with a history of cardiac arrhythmias or congenital or family history of long QT syndrome. Patients should be advised to seek prompt medical attention if they experience symptoms that could indicate the occurrence of torsade de pointes such as dizziness, lightheadedness, fainting, palpitation, irregular heart rhythm, shortness of breath, or syncope.";
+				}
+				
+	  else 
+	  {
+        userDefinedMessage = `You selected ${selectedValue1} and ${selectedValue2}.` + " No interaction found!";
+      }
+
+      // Display the message as an h3 element
+      $('#resultMessage').html(userDefinedMessage);
+    });
+  });
+</script>
+
+<script>
+	function readAloud(content)
+	{
+		 const utterance = new SpeechSynthesisUtterance(content);
+		speechSynthesis.speak(utterance);
+	}
+	</script>
+
+
+
+
+
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

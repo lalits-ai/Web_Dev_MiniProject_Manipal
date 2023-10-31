@@ -1,0 +1,1008 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>MedPharmAccess</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<style>
+footer a{
+  color:white;
+}
+
+footer a:hover{
+  color:rgba(218, 218, 14, 0.69);
+}
+
+footer strong{
+  color:rgba(218, 218, 14, 0.69);
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+a:hover{
+    text-decoration:underline;
+}
+
+body {
+	background-color: white;
+	font-family: Arial, sans-serif;
+        position: relative; 
+}
+
+header {
+	background-color: #0072c6;
+	color: white;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+}
+
+main {
+	display: inline-block;
+	flex-wrap: wrap;
+	margin: 20px;
+}
+
+#search {
+	flex-basis: 100%;
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+label {
+	flex-basis: 100%;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+ #myInput {
+        text-align: center;
+        display: inline;
+        width: 50vw;
+        margin-left:25%;
+        margin-bottom:20px;
+    }
+input[type=text] {
+	flex-basis: calc(100% - 80px);
+	margin-right: 10px;
+	padding: 10px;
+}
+
+button[type=submit] {
+	background-color: #0072c6;
+	border: none;
+	color: white;
+	cursor: pointer;
+	padding: 10px 20px;
+}
+
+#drugs {
+	flex-basis: calc(50% - 10px);
+	margin-right: 20px;
+}
+
+#drugs h2 {
+	font-size: 24px;
+	margin-top: 0;
+}
+
+#drugs ul {
+	list-style-type: none;
+	margin-top: 0;
+	padding-left: 0;
+}
+
+#drugs li {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+#newsletter {
+	flex-basis: calc(50% - 10px);
+}
+
+#newsletter h2 {
+	font-size: 24px;
+	margin-top: 0;
+}
+
+#newsletter form label,
+#newsletter form input[type=email],
+#newsletter form input[type=text],
+#newsletter form button[type=submit],
+#newsletter form p {
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+#popup {
+	position:absolute; 
+	bottom:-100%; 
+	right:-100%; 
+	background-color:white; 
+	width:auto; 
+	height:auto; 
+	padding:.5em; 
+}
+
+    #section1 {
+        padding-top: 50px;
+        height: 500px;
+        color: #fff;
+        background-color: #ff0000;
+    }
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+    #section3 {
+        padding-top: 50px;
+        height: 500px;
+        color: #fff;
+        background-color: #404040;
+    }
+
+#section4{padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section5 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+    #section6 {
+        padding-top: 50px;
+        height: 500px;
+        color: #fff;
+        background-color: #404040;
+    }
+
+    #section7 {
+        padding-top: 50px;
+        height: 500px;
+        color: #fff;
+        background-color: #ff0000;
+    }
+  #section8 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+    #section9 {
+        padding-top: 50px;
+        height: 500px;
+        color: #fff;
+        background-color: #404040;
+    }
+
+
+#section10 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section11 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+    #section12 {
+        padding-top: 50px;
+        height: 500px;
+        color: #fff;
+        background-color: #404040;
+    }
+
+
+    #section13 {
+        padding-top: 50px;
+        height: 500px;
+        color: #fff;
+        background-color: #ff0000;
+    }
+  #section14 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+    #section15 {
+        padding-top: 50px;
+        height: 500px;
+        color: #fff;
+        background-color: #404040;
+    }
+
+
+#section16 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section17 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+    #section18 {
+        padding-top: 50px;
+        height: 500px;
+        color: #fff;
+        background-color: #404040;
+    }
+
+
+#section19 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section20 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+    #section21 {
+        padding-top: 50px;
+        height: 500px;
+        color: #fff;
+        background-color: #404040;
+    }
+
+
+    #section22 {
+        padding-top: 50px;
+        height: 500px;
+        color: #fff;
+        background-color: #ff0000;
+    }
+  #section23 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+    #section24 {
+        padding-top: 50px;
+        height: 500px;
+        color: #fff;
+        background-color: #404040;
+    }
+
+
+#section25 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section26 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+    #section27 {
+        padding-top: 50px;
+        height: 500px;
+        color: #fff;
+        background-color: #404040;
+    }
+
+    #section28 {
+        padding-top: 50px;
+        height: 500px;
+        color: #fff;
+        background-color: #ff0000;
+    }
+  #section29 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+    #section30 {
+        padding-top: 50px;
+        height: 500px;
+        color: #fff;
+        background-color: #404040;
+    }
+
+
+
+
+
+
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #003e78;">
+        <div class="container-fluid">
+          <a class="navbar-brand text-warning" href="../index.html" onfocus="readAloud('MedPharmAccess')">
+            <img src="logo.png" alt="" width="30px" height="30px" style="margin-right: 5px;" ><b>MedPharmAccess</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-warning" aria-current="page" href="../index.html" onfocus="readAloud('home')"><b>Home</b></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" onfocus="readAloud('Tools')">
+                    <b>Tools</b>
+                </a>
+                <ul class="dropdown-menu text-warning"style="background-color: #003e78;" aria-labelledby="navbarDropdown">
+                    <li><a id="navelems" class="dropdown-item text-warning" href="../aakanxa/Pill_Identifier.html" onfocus="readAloud('Pill Identifier')">Pill Identifier</a></li>
+                    <li><a id="navelems" class="dropdown-item text-warning" href="../aakanxa/Interaction_Checker.html" onfocus="readAloud('Interaction Checker')">Interaction Checker</a></li>
+                    <li><a id="navelems" class="dropdown-item text-warning" href="../project/index.html" onfocus="readAloud('Home Remedies')">Home Remedies</a></li>
+                    <li><a id="navelems" class="dropdown-item text-warning" href="sideeffects.html" onfocus="readAloud('Side Efects')">Side Efects</a></li>
+                    <li><a id="navelems" class="dropdown-item text-warning" href="../project/popular.html" onfocus="readAloud('Drugs Comparison')">Drugs Comparison</a></li>
+                    <li><a id="navelems" class="dropdown-item text-warning" href="../bmi.html" onfocus="readAloud('BMI Calculator')">BMI Calculator</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="articels.html" onfocus="readAloud('Articles')"><b>Articles</b></a>
+              </li>
+              <li class="nav-item text-warning">
+                <a class="nav-link text-warning" href="../lalit/Sign_up.html" onfocus="readAloud('SignOut')"><b>SignOut</b></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <main>
+        <h2 style="text-align:center">Below are the drugs which are present in this article </h2>
+        <p style="text-align:center">Type the name of the drugs for which you are searching for :</p>
+        <input class="form-control" id="myInput" type="text" placeholder="Search.." onfocus="readAloud('Enter the name of a drug')">
+        <br>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Drugs:</th>
+                    <th>Drugs which are  not ban in India</th>
+                    <th>Strength of Drugs</th>
+
+
+                </tr>
+            </thead>
+            <tbody id="myTable">
+                <tr>
+                    <td><a href="#C1" onfocus="readAloud('Adderall')">Adderall</a></td>
+                    <td>   &#10004 </td>
+                    <td>30mg</td>
+                    
+
+
+
+
+                </tr>
+
+
+                <tr>
+                    <td><a href="#C2" onfocus="readAloud('Amlodipine')">Amlodipine</a></td>
+                    <td> &#10004 </td>
+                    <td>32mg</td>
+                </tr>
+
+
+
+                <tr>
+                    <td><a href="#C3" onfocus="readAloud('Brilinta')">Brilinta</a></td>
+                    <td> &#10004 </td>
+                    <td>40mg</td>
+                </tr>
+                <tr>
+                    <td><a href="#C4" onfocus="readAloud('Buspirone')">Buspirone</a></td>
+                    <td> &#x274c </td>
+                    <td>60mg</td>
+                </tr>
+                <tr>
+                    <td><a href="#C5" onfocus="readAloud('Chloroquine')">Chloroquine</a></td>
+                    <td> &#10004 </td>
+                    <td>50mg</td>
+
+                </tr>
+                <tr>
+                    <td><a href="#C6" onfocus="readAloud('Cyclobenzaprine')">Cyclobenzaprine</a></td>
+                    <td> &#10004 </td>
+                    <td>10mg</td>
+
+                </tr>
+                <tr>
+                    <td><a href="#C7" onfocus="readAloud('Cymbalta')">Cymbalta</a></td>
+                    <td>  &#10004 </td>
+                    <td>22mg</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#C8" onfocus="readAloud('Doxycycline')">Doxycycline</a></td>
+                    <td> &#x274c </td>
+                    <td>21mg</td>
+
+                </tr>
+
+                <tr>
+                    <td><a href="#C9" onfocus="readAloud('Dupixent')">Dupixent</a></td>
+                    <td> &#10004 </td>
+                    <td>65mg</td>
+
+                </tr>
+
+                <tr>
+                    <td><a href="#C10" onfocus="readAloud('Entresto')">Entresto</a></td>
+                    <td> &#10004 </td>
+                    <td>61mg</td>
+
+                </tr>
+
+                <tr>
+                    <td><a href="#C11" onfocus="readAloud('Entyvio')">Entyvio</a></td>
+                    <td> &#x274c </td>
+                    <td>15mg</td>
+
+                </tr>
+
+                <tr>
+                    <td><a href="#C12" onfocus="readAloud('Farxiga')">Farxiga</a></td>
+                    <td> &#10004 </td>
+                    <td>32mg</td>
+
+                </tr>
+
+                <tr>
+                    <td><a href="#C13" onfocus="readAloud('Fluoxetine')">Fluoxetine</a></td>
+                    <td>&#10004 </td>
+                    <td>9mg</td>
+
+                </tr>
+
+
+
+                <tr>
+                    <td><a href="#C14" onfocus="readAloud('Gabapentin')">Gabapentin</a></td>
+                    <td> &#x274c </td>
+                    <td>51mg</td>
+
+                </tr>
+
+                <tr>
+                    <td><a href="#C15" onfocus="readAloud('Humira')">Humira</a></td>
+                    <td> &#10004 </td>
+                    <td>57mg</td>
+
+                </tr>
+                <tr>
+                    <td><a href="#C16" onfocus="readAloud('Hydroxychloroquine')">Hydroxychloroquine</a></td>
+                    <td> &#10004 </td>
+                    <td>43mg</td>
+
+
+                </tr>
+                <tr>
+                    <td><a href="#C17" onfocus="readAloud('Imbruvica')">Imbruvica</a></td>
+                    <td>&#10004 </td>
+                    <td>5mg</td>
+
+                </tr>
+
+                <tr>
+                    <td><a href="#C18" onfocus="readAloud('Invokana')">Invokana</a></td>
+                    <td>  &#10004 </td>
+                    <td>77mg</td>
+
+                </tr>
+
+                <tr>
+                    <td><a href="#C19" onfocus="readAloud('Januvia')">Januvia</a></td>
+                    <td> &#x274c </td>
+                    <td>85mg</td>
+
+                </tr>
+                <tr>
+                    <td><a href="#C20" onfocus="readAloud('Jardiance')">Jardiance</a></td>
+                    <td> &#10004 </td>
+                    <td>42mg</td>
+
+                </tr>
+
+                <tr>
+                    <td><a href="#C21" onfocus="readAloud('Kevzara')">Kevzara</a></td>
+                    <td> &#10004 </td>
+                    <td>32mg</td>
+
+                </tr>
+
+
+            </tbody>
+        </table>
+
+        <section id="drugs">
+            <h2>List of drugs:</h2>
+
+
+
+
+
+            <div id="section1" class="container-fluid">
+                <h2 id="C1">Adderall</h2>
+                <p>
+                    Along with its needed effects, amphetamine dextroamphetamine may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.
+
+                    Check with your doctor immediately if any of the following side effects occur while taking amphetamine  dextroamphetamine:
+                </p>
+
+                <span class="label label-warning">More Common </span>
+                <ul>
+                    <li>Bladder pain</li>
+                    <li>bloody or cloudy urine</li>
+                    <li>difficult, burning, or painful urination</li>
+                    <li>fast, pounding, or irregular heartbeat or pulse</li>
+                    <li>frequent urge to urinate</li>
+                </ul>
+            </div>
+
+
+            <div id="section2" class="container-fluid">
+                <h2 id="C2">Amlodipine</h2>
+                <p>
+                    Along with its needed effects, amlodipine may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.
+
+                    Check with your doctor immediately if any of the following side effects occur while taking amlodipine:
+                </p>
+
+                <span class="label label-warning">More Common </span>
+                <ul>
+                    <li>Swelling of the ankles or feet</li>
+                    <li>Chest tightness</li>
+                    <li>difficult or labored breathing</li>
+                    <li>dizziness</li>
+                    <li>fast, irregular, pounding, or racing heartbeat or pulse</li>
+                </ul>
+            </div>
+
+            <div id="section3" class="container-fluid">
+                <h2 id="C3">Brilinta</h2>
+                <p>
+                    Along with its needed effects, ticagrelor (the active ingredient contained in Brilinta) may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.
+
+                    Check with your doctor immediately if any of the following side effects occur while taking ticagrelor:
+                </p>
+
+                <span class="label label-warning">More Common </span>
+
+                <ul>
+                    <li>Back pain</li>
+                    <li>bleeding gums</li>
+                    <li>blurred vision</li>
+                    <li>chest pain, tightness, or discomfort</li>
+                    <li>confusion</li>
+                    <li>cough</li>
+                    <li>coughing up blood</li>
+                    <li>difficult or trouble breathing</li>
+
+                </ul>
+            </div>
+
+
+
+            <div id="section4" class="container-fluid">
+                <h2 id="C4">Buspirone</h2>
+                <p>
+                    Along with its needed effects, buspirone may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.
+
+                    Check with your doctor immediately if any of the following side effects occur while taking buspirone:
+                </p>
+
+                <span class="label label-warning">More Common </span>
+                <ul>
+                    <li>Chest pain</li>
+                    <li>confusion</li>
+                    <li>fast or pounding heartbeat</li>
+                    <li>fever</li>
+                    <li>incoordination</li>
+                    <li>numbness, tingling, pain, or weakness in the hands or feet</li>
+                </ul>
+            </div>
+
+
+            <div id="section5" class="container-fluid">
+                <h2 id="C5">Chloroquine</h2>
+                <p>
+                    Along with its needed effects, chloroquine may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.
+
+                    Check with your doctor immediately if any of the following side effects occur while taking chloroquine:
+                </p>
+
+                <span class="label label-warning">More Common </span>
+
+                <ul>
+                    <li>Anxiety</li>
+                    <li>attempts at killing oneself</li>
+                    <li>back, leg, or stomach pains</li>
+                    <li>black, tarry stools</li>
+                    <li>blistering, peeling, or loosening of the skin</li>
+                    <li>blood in the urine or stools</li>
+                </ul>
+            </div>
+
+            <div id="section6" class="container-fluid">
+                <h2 id="C6">Cyclobenzaprine</h2>
+                <p>
+                    Along with its needed effects, cyclobenzaprine may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.
+
+                    Check with your doctor immediately if any of the following side effects occur while taking cyclobenzaprine:
+                </p>
+
+                <span class="label label-warning">More Common </span>
+
+                <ul>
+                    <li>Clumsiness or unsteadiness</li>
+                    <li>confusion</li>
+                    <li>fainting</li>
+                    <li>mental depression</li>
+                    <li>skin rash, hives, or itching occurring without other symptoms of an allergic reaction listed above</li>
+                    <li>unusual thoughts or dreams</li>
+                </ul>
+            </div>
+
+            <div id="section7" class="container-fluid">
+                <h2 id="C7">Cymbalta</h2>
+                <p>Common side effects of Cymbalta include: asthenia, constipation, diarrhea, dizziness, drowsiness, fatigue, hypersomnia, insomnia, nausea, sedated state, headache, and xerostomia. Other side effects include: agitation, erectile dysfunction, nervousness, psychomotor agitation, tension, vomiting, abdominal pain, anorexia, decreased appetite, decreased libido, hyperhidrosis, loss of libido, and restlessness. Continue reading for a comprehensive list of adverse effects.</p>
+                <p> Incidence not known </p>
+                <ul>
+                    <li>Area rash</li>
+                    <li>blistering, peeling, or loosening of the skin</li>
+                    <li>change in consciousness</li>
+                    <li>chest tightness</li>
+                    <liclay-colored stools>
+                        </li>
+                        <li>decreased urine output</li>
+                </ul>
+            </div>
+
+            <div id="section8" class="container-fluid">
+                <h2 id="C8">Doxycycline</h2>
+                <p>
+                    Along with its needed effects, doxycycline may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.
+
+                    Check with your doctor immediately if any of the following side effects occur while taking doxycycline:
+                </p>
+                <span class="label label-warning">More Common </span>
+
+                <ul>
+                    <li>Diarrhea</li>
+                    <li>itching of the vagina or genital area</li>
+                    <li>pain during sexual intercourse</li>
+                    <li>thick, white vaginal discharge with no odor or with a mild odor</li>
+                    <li>blood in the urine or stools</li>
+                    <li>change in the ability to see colors, especially blue or yellow</li>
+                </ul>
+            </div>
+
+
+            <div id="section9" class="container-fluid">
+                <h2 id="C9">Dupixent</h2>
+                <p>
+                    Along with its needed effects, dupilumab (the active ingredient contained in Dupixent) may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.
+
+
+                    Check with your doctor immediately if any of the following side effects occur while taking dupilumab:
+                </p>
+
+                <span class="label label-warning">More Common </span>
+
+                <ul>
+                    <li>Blistering, peeling, redness, or swelling of the palms, hands, or bottoms of the feet</li>
+                    <li>body aches or pain</li>
+                    <li>burning or dry eyes</li>
+                    <li>difficulty in breathing</li>
+                    <li>ear congestion</li>
+                    <li>excessive tearing</li>
+                </ul>
+            </div>
+
+
+            <div id="section10" class="container-fluid">
+                <h2 id="C10">Entresto</h2>
+                <p>
+                    Along with its needed effects, sacubitril/valsartan may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.
+
+                    Check with your doctor immediately if any of the following side effects occur while taking sacubitril / valsartan:
+                </p>
+
+                <span class="label label-warning">More Common </span>
+                <ul>
+                    <li>Abdominal or stomach pain</li>
+                    <li>blurred vision</li>
+                    <li>difficult breathing</li>
+                    <li>dizziness, faintness, or lightheadedness when getting up suddenly from a lying or sitting position</li>
+                    <li>irregular heartbeat</li>
+                    <li>nervousness</li>
+                </ul>
+            </div>
+
+
+
+
+            <div id="section11" class="container-fluid">
+                <h2 id="c11">Entyvio</h2>
+                <p>
+                    Along with its needed effects, vedolizumab (the active ingredient contained in Entyvio) may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.
+
+
+                    Check with your doctor or nurse immediately if any of the following side effects occur while taking vedolizumab:
+                </p>
+
+                <span class="label label-warning">More Common </span>
+                <ul>
+                    <li>Body aches or pain</li>
+                    <li>difficulty with breathing</li>
+                    <li>ear congestion</li>
+                    <li>loss of voice</li>
+                    <li>nasal congestion</li>
+                    <li>runny nose</li>
+                </ul>
+            </div>
+
+
+
+
+            <div id="section12" class="container-fluid">
+                <h2 id="C12">Farxiga</h2>
+                <p>
+                    Along with its needed effects, dapagliflozin (the active ingredient contained in Farxiga) may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.
+
+
+                    Check with your doctor immediately if any of the following side effects occur while taking dapagliflozin:
+                </p>
+                <span class="label label-warning">More Common </span>
+
+                <ul>
+                    <li>Anxiety</li>
+                    <li>bladder pain</li>
+                    <li>bloody or cloudy urine</li>
+                    <li>blurred vision</li>
+                    <li>chills</li>
+                    <li>cold sweats</li>
+                </ul>
+            </div>
+
+
+
+
+            <div id="section13" class="container-fluid">
+                <h2 id="C13">Fluoxetine</h2>
+                <p>
+                    Serious side effects of Fluoxetine
+                    Along with its needed effects, fluoxetine may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.
+
+                    Check with your doctor immediately if any of the following side effects occur while taking fluoxetine:
+                </p>
+
+                <span class="label label-warning">More Common </span>
+                <ul>
+                    <li>Hives, itching, skin rash</li>
+                    <li>inability to sit still</li>
+                    <li>restlessness</li>
+                    <li>joint or muscle pain</li>
+                    <li>Chills or fever</li>
+                    <li>cold sweats</li>
+                </ul>
+            </div>
+
+
+
+
+
+            <div id="section14" class="container-fluid">
+                <h2 id="C14">Gabapentin</h2>
+                <p>
+                    Serious side effects of Gabapentin
+                    Along with its needed effects, gabapentin may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.
+
+                    Check with your doctor immediately if any of the following side effects occur while taking gabapentin:
+                </p>
+
+                <span class="label label-warning">More Common </span>
+                <ul>
+                    <li>Clumsiness or unsteadiness</li>
+                    <li>
+                        continuous, uncontrolled, back-and-forth, or rolling eye movements
+                        More common in children
+                    </li>
+                    <li>Aggressive behavior or other behavior problems</li>
+                    <li>concentration problems and change in school performance</li>
+                    <li>hyperactivity or increase in body movements</li>
+                    <li>rapidly changing moods</li>
+                </ul>
+            </div>
+
+
+
+
+            <div id="section15" class="container-fluid">
+                <h2 id="C15">Gilenya</h2>
+                <p>
+                    Serious side effects of Gilenya
+                    Along with its needed effects, fingolimod (the active ingredient contained in Gilenya) may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.
+
+                    Check with your doctor immediately if any of the following side effects occur while taking fingolimod:
+                </p>
+
+
+                <span class="label label-warning">More Common </span>
+                <ul>
+                    <li>difficult or labored breathing</li>
+                    <li>general feeling of discomfort or illness</li>
+                    <li>cough-producing mucus</li>
+                    <li>chest tightness</li>
+                    <li>Blurred vision</li>
+                    <li>pounding in the ears</li>
+                </ul>
+            </div>
+
+
+
+            <div id="section16" class="container-fluid">
+                <h2 id="C16">Humira</h2>
+                <p>
+                    Serious side effects of Humira
+                    Along with its needed effects, adalimumab (the active ingredient contained in Humira) may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.
+
+                    Check with your doctor immediately if any of the following side effects occur while taking adalimumab:
+                </p>
+
+                <span class="label label-warning">More Common </span>
+                <ul>
+                    <li>pain or tenderness around the eyes or cheekbones</li>
+                    <li>rapid and sometimes shallow breathing</li>
+                    <li>shivering</li>
+                    <li>stomach fullness</li>
+                    <li>stuffy nose</li>
+                    <li>sunken eyes</li>
+                </ul>
+            </div>
+
+
+
+            <div id="section17" class="container-fluid">
+                <h2 id="C17">Hydroxychloroquine</h2>
+                <p>
+                    Serious side effects of Hydroxychloroquine
+                    Along with its needed effects, hydroxychloroquine may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.
+
+                    Check with your doctor immediately if any of the following side effects occur while taking hydroxychloroquine:
+                </p>
+
+                <span class="label label-warning">More Common </span>
+                <ul>
+                    <li>Anxiety</li>
+                    <li>black, tarry stools</li>
+                    <li>bleeding gums</li>
+                    <li>blistering, peeling, loosening of the skin</li>
+                    <li>blood in the urine or stools</li>
+
+                </ul>
+            </div>
+
+
+            <div id="section18" class="container-fluid">
+                <h2 id="C18">Imbruvica</h2>
+                <p>
+                    Common side effects of Imbruvica include: infection, anemia, neutropenia, thrombocytopenia, bruise, and cytopenia. Other side effects include: malignant neoplasm, malignant neoplasm of skin, subdural hematoma, gastrointestinal hemorrhage, and hematuria. Continue reading for a comprehensive list of adverse effects.
+
+                    Applies to ibrutinib: oral capsule, oral suspension, oral tablet.
+                    Serious side effects of Imbruvica
+                    Along with its needed effects, ibrutinib (the active ingredient contained in Imbruvica) may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.
+                </p>
+
+                <span class="label label-warning">More Common </span>
+                <ul>
+                    <li>Back pain</li>
+                    <li>bladder pain</li>
+                    <li>bloating or swelling of the face, arms, hands, lower legs, or feet</li>
+                    <li>bloody or black, tarry stools</li>
+                    <li>bloody or cloudy urine</li>
+                </ul>
+            </div>
+
+
+            <div id="section19" class="container-fluid">
+                <h2 id="C19">Invokana</h2>
+                <p>Common side effects of Invokana include: vulvovaginal candidiasis, vaginal infection, vulvitis, vulvovaginitis, and mean glomerular filtration rate decreased. Other side effects include: balanitis, balanoposthitis, increased urine output, nocturia, polyuria, urinary urgency, and pollakiuria. Continue reading for a comprehensive list of adverse effects.</p>
+
+                <span class="label label-warning">More Common </span>
+
+                <ul>
+                    <li>Bladder pain</li>
+                    <li>bloating</li>
+                    <li>bloody or cloudy urine</li>
+                    <li>decreased frequency or amount of urine</li>
+                    <li>difficult, burning, or painful urination</li>
+                </ul>
+            </div>
+
+
+
+
+            <div id="section20" class="container-fluid">
+                <h2 id="C20">Januvia</h2>
+                <p>
+                    Serious side effects of Januvia
+                    Along with its needed effects, sitagliptin (the active ingredient contained in Januvia) may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.
+
+                    Check with your doctor immediately if any of the following side effects occur while taking sitagliptin:
+                </p>
+                <span class="label label-warning">More Common </span>
+
+                <ul>
+                    <li>Anxiety</li>
+                    <li>blurred vision</li>
+                    <li>chills</li>
+                    <li>cold sweats</li>
+                    <li>confusion</li>
+                </ul>
+            </div>
+
+
+
+
+            <div id="section21" class="container-fluid">
+                <h2 id="C21">Jardiance</h2>
+                <p>Common side effects of Jardiance include: urinary tract infection. Other side effects include: vulvovaginal candidiasis, cervicitis, genital candidiasis, genitourinary infection, vaginal infection, vulvitis, and vulvovaginitis. Continue reading for a comprehensive list of adverse effects.</p>
+
+                <p>
+                    Serious side effects of Jardiance
+                    Along with its needed effects, empagliflozin (the active ingredient contained in Jardiance) may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.
+                </p>
+
+                <span class="label label-warning">More Common </span>
+
+                <ul>
+                    <li>Bladder pain</li>
+                    <li>bloody or cloudy urine</li>
+                    <li>change in the color, amount, or odor of vaginal discharge</li>
+                    <li>difficult, burning, or painful urination</li>
+                    <li>frequent urge to urinate</li>
+                </ul>
+            </div>
+
+
+
+
+            <div id="section22" class="container-fluid">
+                <h2 id="C22">Kevzara</h2>
+                <p>
+                    Serious side effects of Kevzara
+                    Along with its needed effects, sarilumab (the active ingredient contained in Kevzara) may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.
+
+                    Check with your doctor immediately if any of the following side effects occur while taking sarilumab:
+                </p>
+
+                <ul>
+                    <li>lower back or side pain</li>
+                    <li>painful or difficult urination</li>
+                    <li>pale skin</li>
+                    <li>ulcers, sores, or white spots in the mouth</li>
+                    <li>unusual bleeding or bruising</li>
+                </ul>
+            </div>
+
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#myInput").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#myTable tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+
+<footer class="bg-dark text-center text-white">
+    <div class="container p-3">
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a  href="https://www.facebook.com/Drugscom" target="_blank" onfocus="readAloud('Facebook')">
+          <i class="bi bi-facebook"></i >
+            <span style="margin-right: 25px;">Facebook</span>
+
+            
+          </a>
+  
+        <!-- Twitter -->
+        <a  href="https://twitter.com/drugscom" target="_blank" onfocus="readAloud('Twitter')">
+          <i class="bi bi-twitter"></i >
+            <span style="margin-right: 25px;">Twitter</span>
+            
+          </a>
+  
+        
+  
+        <!-- Instagram -->
+        <a  href="https://www.instagram.com/drugs.com_official/" target="_blank" onfocus="readAloud('Instagram')">
+          <i class="bi bi-instagram"></i >
+            <span style="margin-right: 25px;">Instagram</span>
+          </a>
+         <!--youtube-->
+          <a  href="https://www.youtube.com/user/drugscom/" target="_blank" onfocus="readAloud('youtube')">
+          <i class="bi bi-youtube"></i>
+            <span style="margin-right: 3px;">Youtube</span>
+          </a>
+      </section>
+        <p><strong>Disclaimer:</strong> This site is designed to offer information for general educational purposes only. The health information furnished on this site and the interactive responses are not intended to be professional advice and are not intended to replace personal consultation with a qualified physician, pharmacist, or other healthcare professional. You must always seek the advice of a professional for questions related to a disease, disease symptoms, and appropriate therapeutic treatments.</p>
+  </footer>
+
+  <script>
+    function readAloud(content) {
+           const utterance = new SpeechSynthesisUtterance(content);
+         speechSynthesis.speak(utterance);
+    }
+ </script>
+
+</body>
+
+</html>

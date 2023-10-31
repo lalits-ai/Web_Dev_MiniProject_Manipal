@@ -1,0 +1,296 @@
+1) Abilify (aripiprazole) - Adderall (amphetamine / dextroamphetamine) 
+No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.
+
+2) Augmentin (amoxicillin / clavulanate) - Ativan (lorazepam)
+No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.
+
+3) Advair Diskus (fluticasone / salmeterol) - Ambien (zolpidem)
+MINOR - fluticasone --- salmeterol
+Applies to: Advair Diskus (fluticasone / salmeterol), Advair Diskus (fluticasone / salmeterol)
+
+Although they are often combined in clinical practice, the concomitant use of beta-2 adrenergic agonists and corticosteroids may result in additive hypokalemic effects. Since beta-2 agonists can sometimes cause QT interval prolongation, the development of hypokalemia may potentiate the risk of ventricular arrhythmias including torsade de pointes. However, clinical data are limited, and the potential significance is unknown. Patients who are receiving systemic or nebulized formulations of beta-2 agonists, high dosages of inhaled beta-2 agonists, or systemic corticosteroid therapy may be at a greater risk of developing hypokalemia.
+
+4) Auvelity (bupropion / dextromethorphan) - Azithromycin Dose Pack (azithromycin)
+MODERATE - buPROPion --- dextromethorphan
+Applies to: Auvelity (bupropion / dextromethorphan), Auvelity (bupropion / dextromethorphan)
+
+ADJUST DOSE: Coadministration with bupropion may increase the plasma concentrations of drugs that are metabolized by CYP450 2D6 (e.g., selective serotonin reuptake inhibitors; tricyclic antidepressants; some beta blockers, antiarrhythmics, and antipsychotics). The mechanism is decreased clearance due to inhibition of CYP450 2D6 activity by bupropion. Approximately 93% of Caucasians and more than 98% of Asians and individuals of African descent are extensive metabolizers of CYP450 2D6 and may be affected by this interaction. In a study of 15 male volunteers who were extensive metabolizers of CYP450 2D6, administration of a single 50 mg dose of desipramine following treatment with bupropion 150 mg twice daily increased the desipramine peak plasma concentration (Cmax), systemic exposure (AUC) and half-life by an average of 2-, 5-, and 2-fold, respectively. The effect was present for at least 7 days after the last dose of bupropion. A case report describes a 4-fold increase in plasma levels of imipramine and its metabolite, desipramine, in a 64-year-old woman following the addition of bupropion 225 mg/day. Plasma levels of desipramine were increased twofold more than the imipramine levels, which is consistent with the fact that desipramine is primarily metabolized by CYP450 2D6 while imipramine is also metabolized by other CYP450 isoenzymes. In another report, an 83-year-old woman became unsteady, confused, and lethargic following the addition of bupropion SR 300 mg/day. Her nortriptyline level was found to have increased by 185%. A later rechallenge prompted recurrence of the interaction. Likewise, a 62-year-old woman with no history of seizures developed a generalized tonic-clonic seizure in association with toxic trimipramine plasma levels following the addition of bupropion 300 mg/day. No further seizures occurred following dosage reductions of both drugs.
+
+MANAGEMENT: Caution is advised if bupropion must be used concomitantly with medications that undergo metabolism by CYP450 2D6, particularly those with a narrow therapeutic range. Concomitant medications should be initiated at the lower end of the dose range. Clinical and laboratory monitoring may be appropriate for some drugs whenever bupropion is added to or withdrawn from therapy.
+
+5) Arimidex (anastrozole) - Benadryl (diphenhydramine)
+No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.
+
+6) Basaglar (insulin glargine) - Bactroban (mupirocin topical)
+No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.
+
+7) Benicar (olmesartan) - Bentyl (dicyclomine)
+No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.
+
+8) Bactrim DS (sulfamethoxazole / trimethoprim) - Basaglar (insulin glargine)
+MODERATE - sulfamethoxazole & insulin glargine
+Applies to: Bactrim DS (sulfamethoxazole / trimethoprim), Basaglar (insulin glargine)
+
+MONITOR: The hypoglycemic effect of insulin may be potentiated by certain drugs, including ACE inhibitors, angiotensin receptor blockers (ARBs), 4-aminoquinolines, amylin analogs, anabolic steroids, fibrates, monoamine oxidase inhibitors (MAOIs, including linezolid), salicylates, selective serotonin reuptake inhibitors (SSRIs), sulfonamides, disopyramide, propoxyphene, quinidine, quinine, and ginseng. These drugs may increase the risk of hypoglycemia by enhancing insulin sensitivity (ACE inhibitors, ARBs, fibrates, ginseng); stimulating insulin secretion (salicylates, disopyramide, pentoxifylline, propoxyphene, quinidine, quinine, MAOIs, ginseng); decreasing insulin clearance and resistance (4-aminoquinolines); increasing peripheral glucose utilization (SSRIs, insulin-like growth factor); inhibiting gluconeogenesis (SSRIs, MAOIs, insulin-like growth factor); slowing the rate of gastric emptying (amylin analogs); and/or suppressing postprandial glucagon secretion (amylin analogs). Clinical hypoglycemia has been reported during use of some of these agents alone or with insulin and/or insulin secretagogues. Use of SSRIs has also been associated with loss of awareness of hypoglycemia in isolated cases.
+
+MANAGEMENT: Close monitoring for the development of hypoglycemia is recommended if these drugs are coadministered with insulin, particularly in patients with advanced age and/or renal impairment. The insulin dosage may require adjustment if an interaction is suspected. Patients should be apprised of the signs and symptoms of hypoglycemia (e.g., headache, dizziness, drowsiness, nausea, hunger, tremor, weakness, sweating, palpitations), how to treat it, and to contact their physician if it occurs. Patients should be observed for loss of glycemic control when these drugs are withdrawn.
+
+9) Boniva (ibandronate) - Breztri Aerosphere (budesonide / formoterol / glycopyrrolate)
+MINOR - budesonide --- formoterol
+Applies to: Breztri Aerosphere (budesonide / formoterol / glycopyrrolate), Breztri Aerosphere (budesonide / formoterol / glycopyrrolate)
+
+Although they are often combined in clinical practice, the concomitant use of beta-2 adrenergic agonists and corticosteroids may result in additive hypokalemic effects. Since beta-2 agonists can sometimes cause QT interval prolongation, the development of hypokalemia may potentiate the risk of ventricular arrhythmias including torsade de pointes. However, clinical data are limited, and the potential significance is unknown. Patients who are receiving systemic or nebulized formulations of beta-2 agonists, high dosages of inhaled beta-2 agonists, or systemic corticosteroid therapy may be at a greater risk of developing hypokalemia.
+
+10) Bactrim DS (sulfamethoxazole / trimethoprim) - Belbuca (buprenorphine)
+MINOR - sulfamethoxazole --- buprenorphine
+Applies to: Bactrim DS (sulfamethoxazole / trimethoprim), Belbuca (buprenorphine)
+
+Limited data suggest that sulfamethoxazole-trimethoprim (SMX-TMP) may rarely prolong the QT interval of the electrocardiogram. Theoretically, coadministration with other agents that can prolong the QT interval may result in additive effects and increased risk of ventricular arrhythmias including torsade de pointes and sudden death. There have been isolated reports of QT prolongation and ventricular arrhythmias occurring in patients treated with SMX-TMP intravenously. However, a causal relationship has not been established, and the risk of clinically significant QT prolongation is unlikely at recommended dosages of SMX-TMP. In general, the risk of an individual agent or a combination of agents causing ventricular arrhythmia in association with QT prolongation is largely unpredictable but may be increased by certain underlying risk factors such as congenital long QT syndrome, cardiac disease, and electrolyte disturbances (e.g., hypokalemia, hypomagnesemia). In addition, the extent of drug-induced QT prolongation is dependent on the particular drug(s) involved and dosage(s) of the drug(s). Patients should be advised to seek prompt medical attention if they experience symptoms that could indicate the occurrence of torsade de pointes such as dizziness, lightheadedness, fainting, palpitation, irregular heart rhythm, shortness of breath, or syncope.
+
+11) Bactroban (mupirocin topical) - Breo Ellipta (fluticasone / vilanterol)
+MINOR - fluticasone --- vilanterol
+Applies to: Breo Ellipta (fluticasone / vilanterol), Breo Ellipta (fluticasone / vilanterol)
+
+Although they are often combined in clinical practice, the concomitant use of beta-2 adrenergic agonists and corticosteroids may result in additive hypokalemic effects. Since beta-2 agonists can sometimes cause QT interval prolongation, the development of hypokalemia may potentiate the risk of ventricular arrhythmias including torsade de pointes. However, clinical data are limited, and the potential significance is unknown. Patients who are receiving systemic or nebulized formulations of beta-2 agonists, high dosages of inhaled beta-2 agonists, or systemic corticosteroid therapy may be at a greater risk of developing hypokalemia.
+
+12) Benicar (olmesartan) - Bumex (bumetanide)
+No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.
+
+13) Biktarvy (bictegravir / emtricitabine / tenofovir alafenamide) - Bromfed DM (brompheniramine / dextromethorphan / pseudoephedrine)
+MODERATE - dextromethorphan --- brompheniramine
+Applies to: Bromfed DM (brompheniramine / dextromethorphan / pseudoephedrine), Bromfed DM (brompheniramine / dextromethorphan / pseudoephedrine)
+
+MONITOR: Central nervous system- and/or respiratory-depressant effects may be additively or synergistically increased in patients taking multiple drugs that cause these effects, especially in elderly or debilitated patients. Sedation and impairment of attention, judgment, thinking, and psychomotor skills may increase.
+
+MANAGEMENT: During concomitant use of these drugs, patients should be monitored for potentially excessive or prolonged CNS and respiratory depression. Cautious dosage titration may be required, particularly at treatment initiation. Ambulatory patients should be counseled to avoid hazardous activities requiring mental alertness and motor coordination until they know how these agents affect them, and to notify their physician if they experience excessive or prolonged CNS effects that interfere with their normal activities.
+
+14) Cialis (tadalafil) - Cymbalta (duloxetine)
+No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.
+
+15) Cipro (ciprofloxacin) - Cymbalta (duloxetine)
+MAJOR - ciprofloxacin --- DULoxetine
+Applies to: Cipro (ciprofloxacin), Cymbalta (duloxetine)
+
+GENERALLY AVOID: Coadministration with potent inhibitors of CYP450 1A2 may significantly increase the plasma concentrations of duloxetine, which is a substrate of the isoenzyme. In 14 male study subjects, coadministration with 100 mg fluvoxamine, a potent CYP450 1A2 inhibitor, resulted in a 2.5-fold increase in duloxetine peak plasma concentration (Cmax), a nearly 6-fold increase in duloxetine systemic exposure (AUC), and an approximately 3-fold increase in duloxetine half-life. High plasma levels of duloxetine may increase the risk of serious adverse effects such as hypertension, hypertensive crisis, increased heart rate, orthostatic hypotension, syncope, and serotonin syndrome. Serotonin syndrome is a rare but serious and potentially fatal condition thought to result from hyperstimulation of brainstem 5-HT1A and 2A receptors. Symptoms may include mental status changes such as irritability, altered consciousness, confusion, hallucinations, and coma; autonomic dysfunction such as tachycardia, hyperthermia, diaphoresis, shivering, blood pressure lability, and mydriasis; neuromuscular abnormalities such as hyperreflexia, myoclonus, tremor, and ataxia; and gastrointestinal symptoms such as abdominal cramping, nausea, vomiting, and diarrhea.
+
+MANAGEMENT: Concomitant use of duloxetine with potent CYP450 1A2 inhibitors such as fluvoxamine, ciprofloxacin, or enoxacin should be avoided.
+
+16) Contrave (bupropion / naltrexone) - Cymbalta (duloxetine)
+MAJOR - buPROPion --- DULoxetine
+Applies to: Contrave (bupropion / naltrexone), Cymbalta (duloxetine)
+
+MONITOR CLOSELY: The use of bupropion is associated with a dose-related risk of seizures. The risk may be further increased when coadministered with other agents that can reduce the seizure threshold, including antidepressants, CNS stimulants, acetylcholinesterase inhibitors, phenothiazines, and dopaminergic blocking agents such as neuroleptics and metoclopramide. These agents are often individually epileptogenic and may have additive effects when combined. The estimated incidence of seizures is approximately 0.4% for immediate-release bupropion hydrochloride at dosages between 300 to 450 mg/day (equivalent to 348 to 522 mg/day of bupropion hydrobromide), but increases almost tenfold between 450 mg and 600 mg/day (equivalent to 522 and 696 mg/day of bupropion hydrobromide). Data for sustained-release (SR) bupropion hydrochloride revealed a seizure incidence of approximately 0.1% at dosages up to 300 mg/day and 0.4% at 400 mg/day. Likewise, in clinical trials, an overall seizure incidence of approximately 0.1% has been reported with extended-release (XL) bupropion hydrochloride at dosages up to 450 mg/day and approximately 0.39% at 450 mg/day. The 0.4% seizure incidence may exceed that of other marketed antidepressants by as much as 4-fold.
+
+MANAGEMENT: Extreme caution is advised if bupropion is administered with any substance that can reduce the seizure threshold, particularly in the elderly and in patients with a history of seizures or other risk factors for seizures (e.g., head trauma; brain tumor; severe hepatic cirrhosis; metabolic disorders; CNS infections; excessive use of alcohol or sedatives; addiction to opiates, cocaine, or stimulants; diabetes treated with oral hypoglycemic agents or insulin). Bupropion as well as concomitant medications should be initiated at the lower end of the dosage range and titrated gradually as needed and as tolerated. The maximum recommended dosage for the specific bupropion formulation should not be exceeded. Clinical and laboratory monitoring may be appropriate for concomitant medications that are substrates of CYP450 2D6 whenever bupropion is added to or withdrawn from therapy. Bupropion should be discontinued and not restarted in patients who experience a seizure during treatment.
+
+17) Compazine (prochlorperazine) - Cymbalta (duloxetine)
+MODERATE - prochlorperazine --- DULoxetine
+Applies to: Compazine (prochlorperazine), Cymbalta (duloxetine)
+
+MONITOR: Duloxetine is a moderate inhibitor of CYP450 2D6 and may increase the plasma concentrations of drugs that are substrates of the isoenzyme. According to the product labeling, when duloxetine (60 mg twice a day) was administered in conjunction with a single 50 mg dose of desipramine, a CYP450 2D6 substrate, the systemic exposure (AUC) of desipramine increased 3-fold. Conversely, many CYP450 2D6 substrates can also be competitive or noncompetitive inhibitors of the isoenzyme and may increase the plasma concentrations of duloxetine, which is partially metabolized by CYP450 2D6.
+
+MANAGEMENT: Caution is advised if duloxetine must be used concomitantly with medications that undergo metabolism by CYP450 2D6, particularly those with a narrow therapeutic range such as tricyclic antidepressants, phenothiazines, beta blockers, and class IC antiarrhythmic agents (e.g., propafenone, flecainide). A lower initial dosage, as well as clinical and laboratory monitoring, may be appropriate for some drugs.
+
+18) Chantix (varenicline) - Compazine (prochlorperazine)
+No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.
+
+19) Chantix (varenicline) - Coreg (carvedilol)
+No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.
+
+20) Contrave (bupropion / naltrexone) - Creon (pancrelipase)
+MODERATE - buPROPion --- naltrexone
+Applies to: Contrave (bupropion / naltrexone), Contrave (bupropion / naltrexone)
+
+GENERALLY AVOID: Coadministration of naltrexone with other agents known to induce hepatotoxicity may potentiate the risk of liver injury. Naltrexone, especially in larger than recommended doses (more than 50 mg/day), has been associated with hepatocellular injury, hepatitis, and elevations in liver transaminases and bilirubin. Other potential causative or contributory etiologies identified include preexisting alcoholic liver disease, hepatitis B and/or C infection, and concomitant usage of other hepatotoxic drugs.
+
+MANAGEMENT: The use of naltrexone with other potentially hepatotoxic agents should be avoided whenever possible (e.g., acetaminophen; alcohol; androgens and anabolic steroids; antituberculous agents; azole antifungal agents; ACE inhibitors; cyclosporine (high dosages); disulfiram; endothelin receptor antagonists; interferons; ketolide and macrolide antibiotics; kinase inhibitors; minocycline; nonsteroidal anti-inflammatory agents; nucleoside reverse transcriptase inhibitors; proteasome inhibitors; retinoids; sulfonamides; tamoxifen; thiazolidinediones; tolvaptan; vincristine; zileuton; anticonvulsants such as carbamazepine, hydantoins, felbamate, and valproic acid; lipid-lowering medications such as fenofibrate, lomitapide, mipomersen, niacin, and statins; herbals and nutritional supplements such as black cohosh, chaparral, comfrey, DHEA, kava, pennyroyal oil, and red yeast rice). Patients should be advised to seek medical attention if they experience potential signs and symptoms of hepatotoxicity such as fever, rash, itching, anorexia, nausea, vomiting, fatigue, malaise, right upper quadrant pain, dark urine, pale stools, and jaundice. Periodic monitoring of hepatic function is advisable.
+
+21) Depakote (divalproex sodium) - Dulcolax (bisacodyl)
+No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.
+
+22) Elavil (amitriptyline) - Entresto (sacubitril / valsartan)
+MODERATE - amitriptyline --- valsartan
+Applies to: Elavil (amitriptyline), Entresto (sacubitril / valsartan)
+
+MONITOR: Many psychotherapeutic and CNS-active agents (e.g., anxiolytics, sedatives, hypnotics, antidepressants, antipsychotics, opioids, alcohol, muscle relaxants) exhibit hypotensive effects, especially during initiation of therapy and dose escalation. Coadministration with antihypertensives and other hypotensive agents, in particular vasodilators and alpha-blockers, may result in additive effects on blood pressure and orthostasis.
+
+MANAGEMENT: Caution and close monitoring for development of hypotension is advised during coadministration of these agents. Some authorities recommend avoiding alcohol in patients receiving vasodilating antihypertensive drugs. Patients should be advised to avoid rising abruptly from a sitting or recumbent position and to notify their physician if they experience dizziness, lightheadedness, syncope, orthostasis, or tachycardia.
+
+23) Evista (raloxifene) - Excedrin Migraine (acetaminophen / aspirin / caffeine)
+MINOR - aspirin --- caffeine
+Applies to: Excedrin Migraine (acetaminophen / aspirin / caffeine), Excedrin Migraine (acetaminophen / aspirin / caffeine)
+
+One study has reported that coadministration of caffeine and aspirin lead to a 25% increase in the rate of appearance and 17% increase in maximum concentration of salicylate in the plasma. A significantly higher area under the plasma concentration time curve of salicylate was also reported when both drugs were administered together. The exact mechanism of this interaction has not been specified. Physicians and patients should be aware that coadministration of aspirin and caffeine may lead to higher salicylate levels faster.
+
+24) Estrace (estradiol) - Evista (raloxifene)
+MODERATE - estradiol --- raloxifene
+Applies to: Estrace (estradiol), Evista (raloxifene)
+
+GENERALLY AVOID: The concurrent use of raloxifene and systemic estrogen or hormone replacement therapy has not been evaluated in prospective clinical trials. Safety and efficacy of this combination are unknown. However, concomitant use of vaginal estrogen preparations was allowed in clinical trials for treatment of atrophic vaginal symptoms if necessary.
+
+MANAGEMENT: Due to the lack of clinical data, use of raloxifene with systemic estrogens is not recommended.
+
+25) Elavil (amitriptyline) - Eligard (leuprolide)
+MODERATE - amitriptyline --- leuprolide
+Applies to: Elavil (amitriptyline), Eligard (leuprolide)
+
+GENERALLY AVOID: Long-term androgen deprivation therapy can prolong the QT interval. Theoretically, coadministration with other agents that can prolong the QT interval may result in additive effects and increased risk of ventricular arrhythmias including torsade de pointes and sudden death. In a single, active-controlled, clinical study comparing abarelix to LHRH (luteinizing hormone releasing hormone) agonist plus nonsteroidal antiandrogen therapy, both therapies were found to prolong the mean Fridericia-corrected QT interval (QTcF) by more than 10 msec from baseline. In approximately 20% of patients in both groups, there were either changes from baseline QTc of greater than 30 msec or end-of-treatment QTc values exceeding 450 msec. Similar results were observed in two other Phase 3 studies with abarelix and the active-control treatments. In a randomized, active-controlled trial comparing degarelix to leuprolide, three patients (<1%) in the pooled degarelix group and four patients (2%) in the leuprolide 7.5 mg group had a QTcF of 500 ms or greater. From baseline to end of study, the median change was 12.3 msec for degarelix and 16.7 msec for leuprolide. Investigators believe that long-term androgen deprivation is responsible for these changes, as testosterone has been found to shorten ventricular repolarization. In general, the risk of an individual agent or a combination of agents causing ventricular arrhythmia in association with QT prolongation is largely unpredictable but may be increased by certain underlying risk factors such as congenital long QT syndrome, cardiac disease, and electrolyte disturbances (e.g., hypokalemia, hypomagnesemia). In addition, the extent of drug-induced QT prolongation is dependent on the particular drug(s) involved and dosage(s) of the drug(s).
+
+MANAGEMENT: The benefits of androgen deprivation therapy should be carefully assessed against the potential risk in patients receiving other drugs known to prolong the QT interval. Electrolyte abnormalities should be corrected prior to initiating therapy, and periodic monitoring of electrocardiograms and electrolytes should be considered.
+
+26) Flagyl (metronidazole) - Flonase (fluticasone nasal)
+No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.
+
+27) Herceptin (trastuzumab) - Humira (adalimumab)
+MAJOR - trastuzumab --- adalimumab
+Applies to: Herceptin (trastuzumab), Humira (adalimumab)
+
+MONITOR CLOSELY: The use of tumor necrosis factor (TNF) blockers with other immunosuppressive or myelosuppressive agents may increase the risk of infections. Serious infections and sepsis, including fatalities, have been reported with the use of TNF blockers, particularly in patients on concomitant immunosuppressive therapy. Agents that may be significantly myelo- or immunosuppressive include antineoplastic agents, radiation, zidovudine, linezolid, some antirheumatic agents, high dosages of corticosteroids or adrenocorticotropic agents (greater than 10 mg/day to 1 mg/kg/day, whichever is less, of prednisone or equivalent for more than 2 weeks), and long-term topical or inhaled corticosteroids. Concomitant use of TNF blockers with other immunosuppressants such as azathioprine or mercaptopurine may also increase the risk of a rare and often fatal cancer of white blood cells known as hepatosplenic T-Cell lymphoma (HSTCL), which has primarily been reported in adolescent and young adult males receiving treatment for Crohn's disease or ulcerative colitis. Cases of HSTCL have also occurred during use of these agents alone. Because individuals with rheumatoid arthritis, Crohn's disease, ankylosing spondylitis, psoriatic arthritis, or plaque psoriasis may be more likely to develop lymphoma than the general population, it is difficult to assess the added risk of TNF blockers, azathioprine, and/or mercaptopurine.
+
+MANAGEMENT: Patients receiving a TNF blocker alone or with other immunosuppressive or myelosuppressive agents should be monitored closely for the development of infections. TNF blocker therapy should be discontinued if a serious infection or sepsis occurs. Close monitoring for signs and symptoms of HSTCL (e.g., splenomegaly, hepatomegaly, abdominal pain, persistent fever, night sweats, weight loss) is also recommended during use of TNF blockers, particularly in combination with other immunosuppressants such as azathioprine and mercaptopurine.
+
+28) Imdur (isosorbide mononitrate) - Imuran (azathioprine)
+No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.
+
+29) Ingrezza (valbenazine) - Invega (paliperidone)
+MODERATE - paliperidone --- valbenazine
+Applies to: Invega (paliperidone), Ingrezza (valbenazine)
+
+MONITOR: Valbenazine may cause modest prolongation of the QT interval. Theoretically, coadministration with other agents that can prolong the QT interval may result in additive effects and increased risk of ventricular arrhythmias including torsade de pointes and sudden death. In healthy volunteers, an 80 mg dose of valbenazine has been shown to increase the QTc by an average of 6.7 msec. This increase is not considered clinically significant at the concentrations expected with the manufacturer-recommended dosing regimen. However, analysis of clinical data from two studies in healthy volunteers showed increased QTc intervals at higher plasma concentrations of the active metabolite of valbenazine, (+)-alfa-dihydrotetrabenazine. Metabolism by CYP450 3A4 and 2D6 are the primary pathways for elimination of valbenazine and (+)-alfa-dihydrotetrabenazine. Therefore, strong inhibitors of these isoenzymes or poor metabolizers of CYP450 2D6 (approximately 7% of Caucasians and 2% of Asians and those of African descent) may lead to increased exposure to valbenazine and (+)-alfa-dihydrotetrabenazine. Based on an 80 mg dose of valbenazine, patients with increased exposure to (+)-alfa-dihydrotetrabenazine may show QTc prolongation of an average of 11.7 msec. In general, the risk of an individual agent or a combination of agents causing ventricular arrhythmia in association with QT prolongation is largely unpredictable but may be increased by certain underlying risk factors such as congenital long QT syndrome, cardiac disease, and electrolyte disturbances (e.g., hypokalemia, hypomagnesemia). The extent of drug-induced QT prolongation is dependent on the particular drugs involved and the dosages of the drugs.
+
+MONITOR: Central nervous system (CNS)-depressant effects may be additively or synergistically increased in patients taking valbenazine with certain other drugs that cause these effects, especially in elderly or debilitated patients.
+
+MANAGEMENT: Caution and clinical monitoring are recommended if concomitant use of valbenazine with other drugs that can prolong the QT interval is required. Valbenazine is not recommended for use in patients with congenital long QT syndrome or with arrhythmias associated with a prolonged QT interval. In patients with other risk factors for QT prolongation, the QT interval should be assessed before increasing the dose of valbenazine. The manufacturer recommends that valbenazine dosage be reduced to 40 mg once daily in patients on concomitant therapy with a strong CYP450 3A4 inhibitor (e.g., itraconazole, ketoconazole, clarithromycin). Valbenazine dose reduction should also be considered in patients on concurrent therapy with a strong CYP450 2D6 inhibitor (e.g., paroxetine, fluoxetine, quinidine), or in patients who are poor metabolizers of CYP450 2D6. In addition, patients should be advised to seek prompt medical attention if they experience symptoms that could indicate the occurrence of torsade de pointes such as dizziness, lightheadedness, fainting, palpitation, irregular heart rhythm, shortness of breath, or syncope. When valbenazine is used in combination with other drugs that cause CNS depression, patients should be monitored for potentially excessive or prolonged CNS depression. Ambulatory patients should be counseled to avoid hazardous activities requiring mental alertness and motor coordination until they know how these agents affect them, and to notify their doctor if they experience excessive or prolonged CNS effects that interfere with their normal activities.
+
+30) Indocin (indomethacin) - Invega (paliperidone)
+No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.
+
+31) Jardiance (empagliflozin) - Junel Fe 1/20 (ethinyl estradiol / norethindrone)
+MODERATE - ethinyl estradiol --- empagliflozin
+Applies to: Junel Fe 1/20 (ethinyl estradiol / norethindrone), Jardiance (empagliflozin)
+
+MONITOR: The efficacy of insulin and other antidiabetic agents may be diminished by certain drugs, including atypical antipsychotics, corticosteroids, diuretics, estrogens, gonadotropin-releasing hormone agonists, human growth hormone, phenothiazines, progestins, protease inhibitors, sympathomimetic amines, thyroid hormones, L-asparaginase, alpelisib, copanlisib, danazol, diazoxide, isoniazid, megestrol, omacetaxine, phenytoin, sirolimus, tagraxofusp, temsirolimus, as well as pharmacologic dosages of nicotinic acid and adrenocorticotropic agents. These drugs may interfere with blood glucose control because they can cause hyperglycemia, glucose intolerance, new-onset diabetes mellitus, and/or exacerbation of preexisting diabetes.
+
+MANAGEMENT: Caution is advised when drugs that can interfere with glucose metabolism are prescribed to patients with diabetes. Close clinical monitoring of glycemic control is recommended following initiation or discontinuation of these drugs, and the dosages of concomitant antidiabetic agents adjusted as necessary. Patients should be advised to notify their physician if their blood glucose is consistently high or if they experience symptoms of severe hyperglycemia such as excessive thirst and increases in the volume or frequency of urination. Likewise, patients should be observed for hypoglycemia when these drugs are withdrawn from their therapeutic regimen.
+
+32) Jadenu (deferasirox) - Jevtana (cabazitaxel)
+MODERATE - deferasirox --- cabazitaxel
+Applies to: Jadenu (deferasirox), Jevtana (cabazitaxel)
+
+GENERALLY AVOID: Coadministration with potent inducers of CYP450 3A4 may significantly decrease the plasma concentrations of cabazitaxel, which is primarily metabolized by the isoenzyme. However, no formal drug interaction studies have been conducted.
+
+MANAGEMENT: Concomitant use of cabazitaxel with potent CYP450 3A4 inducers such as apalutamide, carbamazepine, enzalutamide, lumacaftor, mitotane, phenobarbital, phenytoin, primidone (partially metabolized to phenobarbital), rifamycins, and St. John's wort should generally be avoided. The extent to which other, less potent CYP450 3A4 inducers may interact with cabazitaxel is unknown. Caution is advised if they are used with cabazitaxel.
+
+33) Kayexalate (sodium polystyrene sulfonate) - Klonopin (clonazepam)
+No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.
+
+34) Ketalar (ketamine) - Kisqali (ribociclib)
+MODERATE - ketamine --- ribociclib
+Applies to: Ketalar (ketamine), Kisqali (ribociclib)
+
+MONITOR: Coadministration with ribociclib may increase the plasma concentrations and pharmacologic effects of drugs that are substrates of CYP450 3A4. The proposed mechanism is decreased clearance due to ribociclib-mediated inhibition of CYP450 3A4 metabolism. In healthy study subjects, administration of midazolam, a sensitive CYP450 3A4 substrate, with multiple 400 mg daily doses of ribociclib increased the midazolam peak plasma concentration (Cmax) and systemic exposure (AUC) by 2.1-fold and 3.8-fold, respectively, compared to midazolam administered alone. When given at a clinically relevant dose of 600 mg daily, ribociclib is predicted to increase midazolam Cmax and AUC by 2.4-fold and 5.2-fold, respectively.
+
+MANAGEMENT: Caution is advised when ribociclib is used concomitantly with drugs that undergo metabolism by CYP450 3A4, particularly those with a narrow therapeutic range. Dosage adjustments as well as clinical and laboratory monitoring may be appropriate for some drugs whenever ribociclib is added to or withdrawn from therapy.
+
+35) Kerendia (finerenone) - Klor-Con (potassium chloride)
+MAJOR - potassium chloride --- finerenone
+Applies to: Klor-Con (potassium chloride), Kerendia (finerenone)
+
+MONITOR CLOSELY: Concomitant use of other drugs that can increase serum potassium such as potassium-containing preparations, potassium-sparing diuretics, aldosterone receptor antagonists, angiotensin converting enzyme (ACE) inhibitors, angiotensin II receptor antagonists, and renin inhibitors may potentiate the risk of hyperkalemia during treatment with finerenone. Patients with renal impairment, dehydration, diabetes, adrenal disease, old age, and severe or worsening heart failure may be at greater risk.
+
+MANAGEMENT: Serum potassium and renal function should be measured prior to initiation of finerenone and monitored throughout treatment, and the dosage adjusted as appropriate in accordance with the product label. More frequent monitoring may be required during concomitant therapy with other agents that can cause hyperkalemia and in patients with higher baseline potassium levels or other risk factors for hyperkalemia. Patients should be advised to seek medical attention if they experience signs and symptoms of hyperkalemia such as nausea, vomiting, weakness, listlessness, tingling of the extremities, paralysis, confusion, weak pulse, and a slow or irregular heartbeat.
+
+36) Lasix (furosemide) - Latuda (lurasidone)
+MODERATE - furosemide --- lurasidone
+Applies to: Lasix (furosemide), Latuda (lurasidone)
+
+MONITOR: Phenothiazines and neuroleptic agents may potentiate the hypotensive effect of some medications secondary to their peripheral alpha-1 adrenergic blocking activity. Orthostatic hypotension and syncope associated with vasodilation may occur, particularly during initial dosing and/or parenteral administration of the phenothiazine or neuroleptic.
+
+MANAGEMENT: Close clinical monitoring for development of hypotension is recommended if phenothiazines or neuroleptic agents are used in patients receiving antihypertensive medications or vasodilators. A lower starting dosage and slower titration of the phenothiazine or neuroleptic may be appropriate, especially in the elderly. Patients should be advised to avoid rising abruptly from a sitting or recumbent position and to notify their physician if they experience dizziness, lightheadedness, syncope, orthostasis, or tachycardia. Patients should also avoid driving or operating hazardous machinery until they know how the medications affect them.
+
+37) Lomotil (atropine / diphenoxylate) - Lovenox (enoxaparin)
+No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.
+
+38) Lumigan (bimatoprost ophthalmic) - Lyrica (pregabalin)
+No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.
+
+39) Jantoven (warfarin) - Junel Fe 1/20 (ethinyl estradiol / norethindrone)
+MODERATE - warfarin --- ethinyl estradiol
+Applies to: Jantoven (warfarin), Junel Fe 1/20 (ethinyl estradiol / norethindrone)
+
+GENERALLY AVOID: Concomitant therapy with estrogen-containing drugs may diminish the therapeutic effects of oral anticoagulants. Estrogens can increase the plasma levels of certain clotting factors such as fibrinogen, prothrombin, and factors VII and VIII in a dose-dependent manner, resulting in increased risk of thromboembolism, stroke, and/or myocardial infarction. The risk may be further increased by lifestyle choices such as smoking and lack of exercise.
+
+MANAGEMENT: Use of estrogen-containing drugs should be avoided in patients receiving anticoagulant therapy unless benefits are anticipated to outweigh the risks. Close clinical and laboratory monitoring are recommended if the combination is prescribed. Patients should be advised to promptly notify their physician if they experience potential signs and symptoms of blood clots such as chest pain, shortness of breath, sudden loss of vision, and pain, redness or swelling in an extremity.
+
+40) Jalyn (dutasteride / tamsulosin) - Jardiance (empagliflozin)
+MODERATE - tamsulosin --- empagliflozin
+Applies to: Jalyn (dutasteride / tamsulosin), Jardiance (empagliflozin)
+
+MONITOR: Sodium-glucose co-transporter 2 (SGLT-2) inhibitors may potentiate the hypotensive effects of diuretics and other antihypertensive agents or vasodilators. Inhibition of glucose and sodium co-transport produces mild diuresis and transient natriuresis, resulting in intravascular volume contraction. Volume depletion-related adverse reactions including hypotension, postural dizziness, orthostatic hypotension, syncope, and dehydration can occur after initiating treatment with SGLT-2 inhibitors, and the risk may be increased with concomitant use of other agents that can lower blood pressure.
+
+MANAGEMENT: Caution is advised if SGLT-2 inhibitors are coadministered with diuretics and other hypotensive agents, particularly in the elderly and patients with impaired renal function. Prior to initiating SGLT-2 inhibitors, volume status should be assessed and corrected, if necessary. Clinical and laboratory monitoring are recommended during therapy, including electrolytes, fluid status, renal function, and blood pressure. If volume depletion occurs, treatment with SGLT-2 inhibitors should be interrupted until the condition is corrected.
+
+41) Kenalog-40 (triamcinolone) - Keytruda (pembrolizumab)
+MODERATE - triamcinolone --- pembrolizumab
+Applies to: Kenalog-40 (triamcinolone), Keytruda (pembrolizumab)
+
+ADJUST DOSING INTERVAL: Corticosteroids may affect the pharmacodynamic effects and efficacy of immune checkpoint inhibitors (ICI) such as programmed cell death-1 (PD-1) or programmed death ligand-1 inhibitors (PD-L1). The mechanism of this interaction is unknown; however, it has been theorized that the immunosuppressive properties of corticosteroids and the potential effect on T-cell function may decrease the efficacy of ICIs. In a retrospective study in patients with advanced NSCLC (n=640), oral or intravenous corticosteroid use at doses of at least 10 mg prednisone equivalent per day at the time of or within 30 days of starting PD-1/PD-L1 blockade with either pembrolizumab, nivolumab, atezolizumab, or durvalumab (n=90) was associated with decreased response and overall poorer outcomes, compared to those who received and discontinued corticosteroid treatment prior to commencing PD-1/PD-L1 therapy. However, it is difficult to determine whether the corticosteroid use had unfavorable effects on patients starting ICI blockade or if corticosteroid use reflected a subgroup of patients with poorer prognosis. Significantly, the use of corticosteroids to manage immune related adverse effects after starting immune checkpoint blockade therapy has not shown negative effects on outcome survival or time to treatment failure.
+
+MANAGEMENT: The manufacturers' product labeling should be consulted for specific recommendations. If clinically possible, the use of systemic corticosteroids (>=10 mg prednisone equivalent/day) should be avoided at the time of or within 30 days of starting therapy with an ICI, e.g., durvalumab, nivolumab, pembrolizumab, ipilimumab, cemiplimab, or atezolizumab. Corticosteroids may be used for the treatment of immune-mediated reactions after starting an ICI. Some manufacturers advise that corticosteroids may be used as premedication, when the ICI is used in combination with chemotherapy, as antiemetic prophylaxis, and/or to alleviate chemotherapy-related adverse effects.
+
+42) Metoprolol Succinate ER (metoprolol) - Motrin (ibuprofen)
+MODERATE - ibuprofen --- metoprolol
+Applies to: Motrin (ibuprofen), Metoprolol Succinate ER (metoprolol)
+
+MONITOR: Nonsteroidal anti-inflammatory drugs (NSAIDs) may attenuate the antihypertensive effect of beta-blockers. The proposed mechanism is NSAID-induced inhibition of renal prostaglandin synthesis, which results in unopposed pressor activity producing hypertension. In addition, NSAIDs can cause fluid retention, which also affects blood pressure. Indomethacin and piroxicam have been reported to have greater attenuating effects than other NSAIDs, and indomethacin effects may be significant in patients with eclampsia.
+
+MANAGEMENT: Patients receiving a beta-blocker who require prolonged (greater than 1 week) concomitant therapy with an NSAID should have blood pressure monitored more closely following initiation, discontinuation, or change of dosage of the NSAID. The interaction is not expected to occur with low doses (e.g., low-dose aspirin) or intermittent short-term administration of NSAIDs.
+
+43) Mirena (levonorgestrel) - Mobic (meloxicam)
+No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.
+
+44) Microzide (hydrochlorothiazide) - Mylanta (aluminum hydroxide / magnesium hydroxide / simethicone)
+MODERATE - hydroCHLOROthiazide --- magnesium hydroxide
+Applies to: Microzide (hydrochlorothiazide), Mylanta (aluminum hydroxide / magnesium hydroxide / simethicone)
+
+MONITOR: The chronic use or abuse of laxatives may potentiate the pharmacologic effects of diuretics. Laxatives can cause significant losses of fluid and electrolytes, including sodium, potassium, magnesium and zinc, and these effects may be additive to those of diuretics.
+
+MANAGEMENT: In general, laxatives should only be used on a short-term, intermittent basis in recommended dosages. During concomitant use with diuretics, patients should be advised to contact their physician if they experience signs and symptoms of fluid and electrolyte depletion such as dizziness, lightheadedness, dry mouth, thirst, fatigue, weakness, lethargy, muscle cramps, decreased urination, postural hypotension, and tachycardia. If maintenance of bowel regularity is required, patients should be advised to exercise and increase fiber in the diet and/or consider the use of bulk-forming laxatives.
+
+45) Nitrostat (nitroglycerin) - Norco (acetaminophen / hydrocodone)
+MODERATE - nitroglycerin --- HYDROcodone
+Applies to: Nitrostat (nitroglycerin), Norco (acetaminophen / hydrocodone)
+
+MONITOR: Many psychotherapeutic and CNS-active agents (e.g., anxiolytics, sedatives, hypnotics, antidepressants, antipsychotics, opioids, alcohol, muscle relaxants) exhibit hypotensive effects, especially during initiation of therapy and dose escalation. Coadministration with antihypertensives and other hypotensive agents, in particular vasodilators and alpha-blockers, may result in additive effects on blood pressure and orthostasis.
+
+MANAGEMENT: Caution and close monitoring for development of hypotension is advised during coadministration of these agents. Some authorities recommend avoiding alcohol in patients receiving vasodilating antihypertensive drugs. Patients should be advised to avoid rising abruptly from a sitting or recumbent position and to notify their physician if they experience dizziness, lightheadedness, syncope, orthostasis, or tachycardia.
+
+46) Nasonex (mometasone nasal) - Novolin N (insulin isophane)
+No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.
+
+47) Omnicef (cefdinir) - Pepcid (famotidine)
+No interactions were found between the drugs in your list. However, this does not necessarily mean no interactions exist. Always consult your healthcare provider.
+
+48) Pepcid (famotidine) - Plaquenil (hydroxychloroquine)
+MODERATE - famotidine --- hydroxychloroquine
+Applies to: Pepcid (famotidine), Plaquenil (hydroxychloroquine)
+
+MONITOR: Famotidine may cause QTc prolongation. Theoretically, coadministration with other agents that can prolong the QT interval may result in additive effects and increased risk of ventricular arrhythmias including torsade de pointes and sudden death. According to the manufacturer, prolongation of the QT interval has been reported very rarely in patients with impaired renal function whose dose/dosing interval of famotidine may not have been adjusted appropriately. In general, the risk of an individual agent or a combination of these agents causing ventricular arrhythmia in association with QT prolongation is largely unpredictable but may be increased by certain underlying risk factors such as congenital long QT syndrome, cardiac disease, and electrolyte disturbances (e.g., hypokalemia, hypomagnesemia). In addition, the extent of drug-induced QT prolongation is dependent on the particular drug(s) involved and dosage(s) of the drug(s).
+
+MANAGEMENT: Caution and clinical monitoring are recommended if famotidine is used in combination with other drugs that can prolong the QT interval. Patients should be advised to seek prompt medical attention if they experience symptoms that could indicate the occurrence of torsade de pointes such as dizziness, lightheadedness, fainting, palpitation, irregular heart rhythm, shortness of breath, or syncope.
+
+49) Unisom SleepGels (diphenhydramine) - Unisom SleepTabs (doxylamine)
+MODERATE - diphenhydrAMINE --- doxylamine
+Applies to: Unisom SleepGels (diphenhydramine), Unisom SleepTabs (doxylamine)
+
+MONITOR: Agents with anticholinergic properties (e.g., sedating antihistamines; antispasmodics; neuroleptics; phenothiazines; skeletal muscle relaxants; tricyclic antidepressants; disopyramide) may have additive effects when used in combination. Excessive parasympatholytic effects may result in paralytic ileus, hyperthermia, heat stroke, and the anticholinergic intoxication syndrome. Peripheral symptoms of intoxication commonly include mydriasis, blurred vision, flushed face, fever, dry skin and mucous membranes, tachycardia, urinary retention, and constipation. Central symptoms may include memory loss, disorientation, incoherence, hallucinations, psychosis, delirium, hyperactivity, twitching or jerking movements, stereotypy, and seizures. Central nervous system-depressant effects may also be additively or synergistically increased when these agents are combined, especially in elderly or debilitated patients. Use of neuroleptics in combination with other neuroleptics or anticholinergic agents may increase the risk of tardive dyskinesia. In addition, some neuroleptics and tricyclic antidepressants may cause prolongation of the QT interval and theoretically, concurrent use of two or more drugs that can cause QT interval prolongation may result in additive effects and increased risk of ventricular arrhythmias including torsade de pointes and sudden death.
+
+MANAGEMENT: Caution is advised when agents with anticholinergic properties are combined, particularly in the elderly and those with underlying organic brain disease, who tend to be more sensitive to the central anticholinergic effects of these drugs and in whom toxicity symptoms may be easily overlooked. Patients should be advised to notify their physician promptly if they experience potential symptoms of anticholinergic intoxication such as abdominal pain, fever, heat intolerance, blurred vision, confusion, and/or hallucinations. Ambulatory patients should be counseled to avoid activities requiring mental alertness until they know how these agents affect them. A reduction in anticholinergic dosages may be necessary if excessive adverse effects develop.
+
+50) Zithromax (azithromycin) - Zyprexa (olanzapine)
+MODERATE - azithromycin --- OLANZapine
+Applies to: Zithromax (azithromycin), Zyprexa (olanzapine)
+
+MONITOR: It is uncertain whether olanzapine causes clinically significant prolongation of the QT interval. In pooled studies of adults as well as pooled studies of adolescents, there were no significant differences between olanzapine and placebo in the proportion of patients experiencing potentially important changes in ECG parameters, including QT, QTcF (Fridericia-corrected), and PR intervals. In clinical trials, clinically meaningful QTc prolongations (QTcF >=500 msec at any time post-baseline in patients with baseline QTcF <500 msec) occurred in 0.1% to 1% of patients treated with olanzapine, with no significant differences in associated cardiac events compared to placebo. Published studies have generally reported no significant effect of olanzapine on QTc interval, although both QTc prolongation and QTc shortening have also been reported. There have been a few isolated case reports of QT prolongation in patients receiving olanzapine. However, causality is difficult to establish due to confounding factors such as concomitant use of drugs that cause QT prolongation and underlying conditions that may predispose to QT prolongation (e.g., hypokalemia, congenital long QT syndrome, preexisting conduction abnormalities).
+
+MANAGEMENT: Some authorities recommend caution when olanzapine is used with drugs that are known to cause QT prolongation. ECG monitoring may be advisable in some cases, such as in patients with a history of cardiac arrhythmias or congenital or family history of long QT syndrome. Patients should be advised to seek prompt medical attention if they experience symptoms that could indicate the occurrence of torsade de pointes such as dizziness, lightheadedness, fainting, palpitation, irregular heart rhythm, shortness of breath, or syncope.

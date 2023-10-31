@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>MedPharmaAccess</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    footer{
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+    }
+footer a{
+  color:white;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color:rgba(218, 218, 14, 0.69);
+}
+
+footer strong{
+  color:yellow;
+}
+body{
+    margin: 0%;
+    padding: 0%;}
+.spn{
+    color: red;
+}
+.wrapper{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    background:#0a4881;
+    border-radius: 7px;
+    box-shadow: #0a4881 0px 25px 40px -10px;
+}
+button{
+    color: white;
+    padding: 10px;
+    border: 2px solid yellow;
+    background-color: #003e78;
+    display: inline-block;
+    border-radius: 4px;;
+    width: 100%;
+}
+button:hover{
+    text-transform: uppercase;
+    text-decoration:underline;
+    background-color: black;
+}
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #003e78;">
+    <div class="container-fluid">
+      <a class="navbar-brand text-warning" href="index.html" onfocus="readAloud('MedPharmAccess')">
+        <img src="logo.png" alt="" width="30px" height="30px" style="margin-right: 5px;" ><b>MedPharmAccess</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-warning" aria-current="page" href="index.html" onfocus="readAloud('home')"><b>Home</b></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" onfocus="readAloud('Tools')">
+              <b>Tools</b>
+            </a>
+            <ul class="dropdown-menu text-warning"style="background-color: #003e78;" aria-labelledby="navbarDropdown">
+              <li><a id="navelems" class="dropdown-item text-warning" href="aakanxa/Pill_Identifier.html" onfocus="readAloud('Pill Identifier')">Pill Identifier</a></li>
+              <li><a id="navelems" class="dropdown-item text-warning" href="aakanxa/Interaction_Checker.html" onfocus="readAloud('Interaction Checker')">Interaction Checker</a></li>
+              <li><a id="navelems" class="dropdown-item text-warning" href="project/index.html" onfocus="readAloud('Home Remedies')">Home Remedies</a></li>
+              <li><a id="navelems" class="dropdown-item text-warning" href="project/index.html" onfocus="readAloud('Side Efects')">Side Efects</a></li>
+              <li><a id="navelems" class="dropdown-item text-warning" href="project/popular.html" onfocus="readAloud('Drugs Comparison')">Drugs Comparison</a></li>
+              <li><a id="navelems" class="dropdown-item text-warning" href="bmi.html" onfocus="readAloud('BMI Calculator')">BMI Calculator</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="gaunrang/articels.html" onfocus="readAloud('Articles')"><b>Articles</b></a>
+          </li>
+          <li class="nav-item text-warning">
+            <a class="nav-link text-warning" href="lalit/Sign_up.html" onfocus="readAloud('SignOut')"><b>SignOut</b></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+      <h1 style="text-align: center; margin-top: 25px;margin-bottom: -25px; color: #003e78;"><b>BMI CALCULATOR</b></h1>
+      <div class="wrapper">
+        <p class="text-warning"><b>Height in CM:</b>
+            <input type="text" class="text-dark" id="height"><br><span class="spn" id="height_error"></span>
+        </p>
+
+        <p class="text-warning"><b>Weight in KG:</b>
+            <input type="text" class="text-dark" id="weight"><br><span class="spn" id="weight_error"></span>
+
+
+        </p>
+        <button id="btn" class="text-warning" onclick="btn_func()"><b>Calculate</b></button>
+        <p id="output" class="text-warning"></p>
+      </div>
+
+
+      <footer class="bg-dark text-center text-white">
+        <div class="container p-3">
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a  href="https://www.facebook.com/Drugscom" target="_blank" onfocus="readAloud('Facebook')">
+              <i class="bi bi-facebook"></i >
+                <span style="margin-right: 25px;">Facebook</span>
+    
+                
+              </a>
+      
+            <!-- Twitter -->
+            <a  href="https://twitter.com/drugscom" target="_blank" onfocus="readAloud('Twitter')">
+              <i class="bi bi-twitter"></i >
+                <span style="margin-right: 25px;">Twitter</span>
+                
+              </a>
+      
+            
+      
+            <!-- Instagram -->
+            <a  href="https://www.instagram.com/drugs.com_official/" target="_blank" onfocus="readAloud('Instagram')">
+              <i class="bi bi-instagram"></i >
+                <span style="margin-right: 25px;">Instagram</span>
+              </a>
+             <!--youtube-->
+              <a  href="https://www.youtube.com/user/drugscom/" target="_blank" onfocus="readAloud('youtube')">
+              <i class="bi bi-youtube"></i>
+                <span style="margin-right: 3px;">Youtube</span>
+              </a>
+          </section>
+            <p><strong>Disclaimer:</strong> This site is designed to offer information for general educational purposes only. The health information furnished on this site and the interactive responses are not intended to be professional advice and are not intended to replace personal consultation with a qualified physician, pharmacist, or other healthcare professional. You must always seek the advice of a professional for questions related to a disease, disease symptoms, and appropriate therapeutic treatments.</p>
+      </footer>
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/bmi.js"></script>
+      
+      <script>
+        function readAloud(content) {
+               const utterance = new SpeechSynthesisUtterance(content);
+             speechSynthesis.speak(utterance);
+        }
+     </script>
+    </body>
+    
+    </html>

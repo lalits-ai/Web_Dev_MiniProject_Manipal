@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | MedPharm</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/login_styles.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #003e78;">
+    <div class="container-fluid">
+      <a class="navbar-brand text-warning" href="" onfocus="readAloud('MedPharmAccess')">
+        <img src="logo.png" alt="" width="30px" height="30px" style="margin-right: 5px;" ><b>MedPharmAccess</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-warning" aria-current="page" href="Sign_up.html" onfocus="readAloud('Sign-up')"><b>Sign Up</b></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container d-flex justify-content-center align-items-center">
+    <form class="loginForm needs-validation" novalidate>
+      <h1>Login</h1>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" class="form-control" onfocus="readAloud('Email')" required>
+        <div class="valid-feedback">Valid</div>
+        <div class="invalid-feedback">Invalid email</div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <label for="pass">Password</label>
+            <input type="password" id="pass" class="form-control" onfocus="readAloud('Password')" required>
+            <div class="row">
+              <div class="col-12 d-inline-flex justify-content-between">
+                <div><a href="#" class="text-decoration-none" onfocus="readAloud('Forgot password?')">Forgot
+                    Password?</a></div>
+                <span>
+                  <input type="checkbox" id="remember" onfocus="readAloud('checkbox Remember me')">
+                  <label for="remember">Remember me</label>
+                </span>
+              </div>
+            </div>
+            <div class="valid-feedback">Valid</div>
+            <div class="invalid-feedback">Wrong Password</div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col">
+          <div class="form-group d-flex flex-column">
+            <input type="submit" class="btn btn-primary col-12 mb-1" value="Submit" onfocus="readAloud('Submit')"
+              id="submit">
+            <input type="reset" class="btn btn-secondary col-12 mb-3" value="Reset" onfocus="readAloud('Reset')"
+              id="reset">
+            <div class="divider mb-2">or</div>
+            <div class="input-group">
+              <div class="input-group-text col-2 d-flex justify-content-center mb-1"><img src="images/google-logo.png"
+                  height="30px" width="30px"></div>
+              <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%3Fhl%3Den-US&ec=GAlA8wE&hl=en&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S1024197512%3A1697985957479381&theme=glif"
+                class="btn btn-light col-10 mb-1" onfocus="readAloud('Google')">Google</a>
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="input-group-text col-2 d-flex justify-content-center mb-1"><img src="images/meta-logo.png"
+                height="30px" width="45px"></div>
+            <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=322935469656730&kid_directed_site=0&app_id=322935469656730&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D322935469656730%26redirect_uri%3Dhttps%253A%252F%252Fauth.meta.com%252Flogin%252Ffacebook%252Fresponse%252F%253Fstate%253DATBGkCuLiTwrBlcsqsW7tpZyA374apyNPZSvvvJULX_bU5D-qm0jLawjQVjx6A48Sn_S75Y23dcOjotj4GaYPgK80eFFma97eMaD9XfnWvhRL9A3Arml_nmzjWEPJJd6D59FqyOnG9biEBhGGO4gFLLoUyCrEhQQyz5x6D3hShLaTFbxQCRv5TbM6Z7VGOvtum4Uczo_ioQ3lzHu_aWZ9m0xW0wkZO5lpUh4TfS9voMegfwGuABXZAyhV4qwko4FxR2Qhh8vnsK60xkgk376Ypki3H-WCKWzif1lF4F7s64S8Y-QeFIFCSi28b1dq1XpVBE%26response_type%3Dcode%26scope%3Dpublic_profile%252Cemail%252Cuser_birthday%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D06256298-00a4-4a11-96d3-68b1a3ee96b2%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fauth.meta.com%2Flogin%2Ffacebook%2Fresponse%2F%3Fstate%3DATBGkCuLiTwrBlcsqsW7tpZyA374apyNPZSvvvJULX_bU5D-qm0jLawjQVjx6A48Sn_S75Y23dcOjotj4GaYPgK80eFFma97eMaD9XfnWvhRL9A3Arml_nmzjWEPJJd6D59FqyOnG9biEBhGGO4gFLLoUyCrEhQQyz5x6D3hShLaTFbxQCRv5TbM6Z7VGOvtum4Uczo_ioQ3lzHu_aWZ9m0xW0wkZO5lpUh4TfS9voMegfwGuABXZAyhV4qwko4FxR2Qhh8vnsK60xkgk376Ypki3H-WCKWzif1lF4F7s64S8Y-QeFIFCSi28b1dq1XpVBE%26error%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%23_%3D_&display=page&locale=en_GB&pl_dbl=0"
+              class="btn btn-light col-10 mb-1" onfocus="readAloud('Facebook(Meta)')">Facebook(Meta)</a>
+          </div>
+          <div class="input-group">
+            <div class="input-group-text col-2 d-flex justify-content-center mb-1"><img src="images/x-logo.png"
+                height="25px" width="25px"></div>
+            <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"
+              class="btn btn-light col-10 mb-1" onfocus="readAloud('Twitter')">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <p>New to MedPharmAccess? <a href="Sign_up.html" class="text-decoration-none"
+              onfocus="readAloud('New to MedPharmAccess? Create an account')">Create an account</a></p>
+        </div>
+      </div>
+  </div>
+  <br>
+  <footer class="bg-dark text-center text-white">
+    <div class="container p-3">
+      <section class="mb-4 d-flex justify-content-around">
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/Drugscom" class="text-decoration-none">
+          <i class="bi bi-facebook"></i>
+          <span style="margin-right: 25px;">Facebook</span>
+
+
+        </a>
+
+        <!-- Twitter -->
+        <a href="https://twitter.com/drugscom" class="text-decoration-none">
+          <i class="bi bi-twitter"></i>
+          <span style="margin-right: 25px;">Twitter</span>
+
+        </a>
+
+
+
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/drugs.com_official/" class="text-decoration-none">
+          <i class="bi bi-instagram"></i>
+          <span style="margin-right: 25px;">Instagram</span>
+        </a>
+        <!--youtube-->
+        <a href="https://www.youtube.com/user/drugscom/" class="text-decoration-none">
+          <i class="bi bi-youtube"></i>
+          <span style="margin-right: 3px;">Youtube</span>
+        </a>
+      </section>
+      <p><strong>Disclaimer:</strong> This site is designed to offer information for general educational purposes only.
+        The health information furnished on this site and the interactive responses are not intended to be professional
+        advice and are not intended to replace personal consultation with a qualified physician, pharmacist, or other
+        healthcare professional. You must always seek the advice of a professional for questions related to a disease,
+        disease symptoms, and appropriate therapeutic treatments.</p>
+  </footer>
+
+  <script>
+
+    // After a successful login, set the loggedIn variable and return to the main pag
+
+    // Function to start reading the content aloud
+    function readAloud(content) {
+      // const content = 'First Name';
+      const utterance = new SpeechSynthesisUtterance(content);
+      speechSynthesis.speak(utterance);
+    }
+    function validateForm() {
+      var email = document.getElementById('email');
+      if (email.value.trim() === "" || !validateEmail(email.value)) {
+        showError(email);
+        return false;
+      }
+      else {
+        showNoError(email);
+        return true;
+      }
+    }
+
+    function validateEmail(email) {
+      var emailRegExp = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+      return emailRegExp.test(email);
+    }
+
+    // Function to show an error message
+    function showError(input) {
+      var feedback = input.nextElementSibling;
+      input.classList.remove("is-valid");
+      input.classList.add("is-invalid");
+      // feedback.innerHTML = message;
+    }
+
+    //Function to show correct message
+    function showNoError(input) {
+      var feedback = input.nextElementSibling;
+      input.classList.remove("is-invalid");
+      input.classList.add("is-valid");
+      // feedback.innerHTML = message;
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      var homePageUrl = "../index.html";
+
+      var submitButton = document.getElementById('submit');
+
+      // var form = document.querySelector(".loginForm");
+
+      submitButton.addEventListener("click", function (event) {
+        if (!validateForm()) {
+          event.preventDefault();
+        }
+        else {
+          window.open(homePageUrl);
+          alert("Login Successful!");
+        }
+
+      });
+    });
+  </script>

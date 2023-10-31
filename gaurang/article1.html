@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MedPharmAccess</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html, body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Roboto", sans-serif;
+        }
+
+        #readAloudBtn, #stopReadAloudBtn {
+            background-color: #4CAF50; /* Green background color */
+            color: white; /* White text color */
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-bottom: 20px; /* Add margin to the bottom to separate it from other elements */
+            transition: background-color 0.3s;
+        }
+    </style>
+
+   
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #003e78;">
+        <div class="container-fluid">
+            <a onfocus="readAloud()" class="navbar-brand text-warning" href="#">
+                <img src="h.jpeg" alt="" width="30px" height="30px" style="margin-right: 5px;">MedPharmAccess
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-warning" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu text-warning" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-warning" href="#">Action</a></li>
+                            <li><a class="dropdown-item text-warning" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider text-warning"></li>
+                            <li><a class="dropdown-item text-warning" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item text-warning">
+                        <a class="nav-link disabled text-warning" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+    <div class="w3-main" style="">
+
+        <button id="readloudBtn">Read Aloud</button>
+        <button id -"stopAloudBtn"> Stop Reading</button>
+
+
+
+
+
+
+
+
+        <div class="w3-row w3-padding-64">
+            <div class="w3-twothird w3-container">
+                <img src="a1.jpeg" alt="MedPharm" style="width:150px;height:150px;border-radius: 50px 20px;">
+                <h1 class="w3-text-teal">Could some diets help manage long COVID?</h1>
+                <p>   For many people, particularly following vaccination, infection with SARS-CoV-2, the virus that causes COVID-19, resolves within a few days. But for others, it results in long COVID, a variety of often debilitating symptoms that persist for weeks, months or even years. Why this happens in some is unclear, and there are currently no effective treatments. Some experts believe diet could be key to symptom management. What is the evidence for this?
+
+                <p>
+                    Which diets might help with long COVID management? Image credit: Alex Potemkin/Getty Images.
+                    Researchers describe long COVIDTrusted Source — also known as post-COVID-19 condition — as “an often debilitating illness,” noting that it “occurs in at least 10%” of people who have had COVID-19.
+                </p>
+                t can result in a wide range of symptomsTrusted Source, which, according to the Centers for Disease Control and Prevention (CDC), may include:
+                <ul>
+                    <li>tiredness or fatigue that interferes with daily life</li>
+                    <li>fever</li>
+                    <li>difficulty breathing, cough or shortness of breath</li>
+                    <li>chest pain and heart palpitations</li>
+                    <li>difficulty thinking or concentrating, also referred to as “brain fog”</li>
+                    <li>headache</li>
+                    <li>sleep problems</li>
+                    <li>dizziness when standing up</li>
+                    <li>pins-and-needles feelings in limbs</li>
+                    <li>change in smell or taste</li>
+                    <li>depression or anxiety</li>
+                    <li>diarrhea</li>
+                </ul>
+                <p> Why some people develop long COVID is not entirely clear, but factors that increase the likelihoodTrusted Source include older age, being female, having other chronic conditions, and having had severe COVID-19.</p>
+                <p> Studies have shown that vaccination and early treatment with antiviralsTrusted Source may decrease the likelihood of developing long COVID. A nonpeer-reviewed preprint has suggested that treatment with convalescent plasmaTrusted Source could do the same.</p>
+
+
+                <h1 class="w3-text-teal">Misfiring immune system may play a role in long COVID</h1>
+                <p>
+                    Dr. Adupa Rao, a medical director at the Keck Medicine Covid Recovery Clinic, told MNT that “there is no clear signal why certain people develop long COVID.“
+
+                    However, according to him, a misfiring immune system, triggered by SARS-CoV-2, may prolong the state of illness indefinitely for some people.
+
+                    “We suspect that the underlying problem is that the immune system gets activated after COVID infection and stays on after the infection has resolved,” said Dr. Rao.
+                </p>
+
+                <p style="background-color:powderblue;">  “The continuous activation of the immune system means that the body is very active seeking to fight infection and is in the high-inflammatory state,” he explained.  </p>
+
+
+                <h1 class="w3-text-teal">Are post-viral syndrome treatments helpful?</h1>
+                <p>
+                    Treatments similar to those for other post-viral syndromes, such as chronic fatigue/myalgic encephalomyelitisTrusted Source, may be beneficial. These include getting plenty of rest and doing gentle, but not vigorous, exercise.
+
+                    A 2017 meta-analysisTrusted Source of dietary intervention for post-viral syndromes found that supplements and long-term elimination diets were generally not beneficial.
+
+                    The study’s conclusion was that a balanced diet and a variety of nutritious foods were most likely to help with symptoms.
+
+                    Kelsey Costa, a registered dietitian nutritionist with National Coalition on Healthcare (NCHC), agreed, telling MNT that, “in managing post-viral conditions like chronic fatigue syndrome, a nutritious, balanced diet can enhance body functionality, improving well-being.”
+
+                    “While diet alone is not a cure for post-viral conditions like chronic fatigue syndrome, it can play an essential role in managing symptoms and supporting overall health and well-being,” she added.
+                </p>
+
+
+                </p>
+            </div>
+            <div class="w3-third w3-container">
+                <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+                <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+            </div>
+        </div>
+
+
+        <ul class="pager">
+            <li class="previous"><a href="#">Previous</a></li>
+            <li class="next"><a href="#">Next</a></li>
+        </ul>
+
+
+
+
+
+    </div>
+
+    <footer id="myFooter">
+        <div class="w3-container w3-theme-l2 w3-padding-32">
+            <h4></h4>
+        </div>
+
+        <div class="w3-container w3-theme-l1">
+            <p>Powered by <a href="https://www.drugs.com/" target="_blank">Drugs.com</a></p>
+        </div>
+    </footer>
+
+    <!-- END MAIN -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <footer class="bg-dark text-center text-white">
+        <div class="container p-3">
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/Drugscom">
+                    <i class="bi bi-facebook"></i>
+                    <span style="margin-right: 25px;">Facebook</span>
+
+
+                </a>
+
+                <!-- Twitter -->
+                <a href="https://twitter.com/drugscom">
+                    <i class="bi bi-twitter"></i>
+                    <span style="margin-right: 25px;">Twitter</span>
+
+                </a>
+
+
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/drugs.com_official/">
+                    <i class="bi bi-instagram"></i>
+                    <span style="margin-right: 25px;">Instagram</span>
+                </a>
+                <!--youtube-->
+                <a href="https://www.youtube.com/user/drugscom/">
+                    <i class="bi bi-youtube"></i>
+                    <span style="margin-right: 3px;">Youtube</span>
+                </a>
+            </section>
+            <p><strong>Disclaimer:</strong> This site is designed to offer information for general educational purposes only. The health information furnished on this site and the interactive responses are not intended to be professional advice and are not intended to replace personal consultation with a qualified physician, pharmacist, or other healthcare professional. You must always seek the advice of a professional for questions related to a disease, disease symptoms, and appropriate therapeutic treatments.</p>
+    </footer>
+
+
+
+
+
+
+</body>
+<script>
+
+    // Function to start reading the content aloud
+    function startReadingAloud() {
+  const content = document.body.textContent;
+    const utterance = new SpeechSynthesisUtterance(content);
+    speechSynthesis.speak(utterance);
+}
+
+    // Function to stop the text-to-speech
+    function stopReadingAloud() {
+        speechSynthesis.cancel();
+}
+
+    // Event listeners for the buttons
+    document.getElementById("readAloudBtn").addEventListener("click", startReadingAloud);
+    document.getElementById("stopReadAloudBtn").addEventListener("click", stopReadingAloud);
+</script>
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="path-to-bootstrap/css/bootstrap.min.css">
+    <script src="path-to-bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Document</title>
+    <style>
+     .p{
+      text-align: center;
+      color: black;/* for see how in header*/
+     }
+    
+     
+     p>a{ /* for link*/
+      color: #130ce4;
+      text-decoration: none;
+     }
+
+     h1{ /* header compare*/
+      text-align: center;
+      color: black;
+     }
+
+
+     .search{
+      background-color: aliceblue;
+     }
+
+ 
+    /* div{
+      margin-bottom: 10px;
+     }*/
+    .social{
+      width: 30px;
+      height: 30px;
+      margin-left: 20px;
+    }
+
+
+
+    /* for the home remidies page */
+    .img{
+      height: 300px;
+     }
+     @media screen and (max-width:666px){
+            .img{
+      width: 100%;
+     }
+     footer section{
+        flex-wrap:wrap;
+     }
+     }
+
+     .cont{
+            margin-bottom:10px ;
+          }
+
+     
+     div{
+      text-align: center;/*Popular comparisons*/
+     }
+
+
+     footer a{
+  color:white;
+}
+
+footer a:hover{
+  color:rgba(218, 218, 14, 0.69);
+}
+
+footer strong{
+  color:rgba(218,218,14,0.69);
+}
+    </style>
+</head>
+<body onload="readAloud('Popular comparisons of remedies')" >
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #003e78;">
+    <div class="container-fluid">
+      <a class="navbar-brand text-warning" href="../index.html" onfocus="readAloud('MedPharmAccess')">
+        <img src="logo.png" alt="" width="30px" height="30px" style="margin-right: 5px;" ><b>MedPharmAccess</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-warning" aria-current="page" href="../index.html" onfocus="readAloud('home')"><b>Home</b></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" onfocus="readAloud('Tools')">
+              <b>Tools</b>
+            </a>
+            <ul class="dropdown-menu text-warning"style="background-color: #003e78;" aria-labelledby="navbarDropdown">
+              <li><a id="navelems" class="dropdown-item text-warning" href="../aakanxa/Pill_Identifier.html" onfocus="readAloud('Pill Identifier')">Pill Identifier</a></li>
+              <li><a id="navelems" class="dropdown-item text-warning" href="../aakanxa/Interaction_Checker.html" onfocus="readAloud('Interaction Checker')">Interaction Checker</a></li>
+              <li><a id="navelems" class="dropdown-item text-warning" href="index.html" onfocus="readAloud('Home Remedies')">Home Remedies</a></li>
+              <li><a id="navelems" class="dropdown-item text-warning" href="../gaunrang/sideeffects.html" onfocus="readAloud('Side Efects')">Side Efects</a></li>
+              <li><a id="navelems" class="dropdown-item text-warning" href="popular.html" onfocus="readAloud('Drugs Comparison')">Drugs Comparison</a></li>
+              <li><a id="navelems" class="dropdown-item text-warning" href="../bmi.html" onfocus="readAloud('BMI Calculator')">BMI Calculator</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="../gaunrang/articels.html" onfocus="readAloud('Articles')"><b>Articles</b></a>
+          </li>
+          <li class="nav-item text-warning">
+            <a class="nav-link text-warning" href="../lalit/Sign_up.html" onfocus="readAloud('SignOut')"><b>SignOut</b></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div>
+    <h1>Popular comparisons</h1>
+    <p class="p">Compare top drugs by medical conditions, side effects, ratings and reviews.</p>
+   </div>
+   
+   <div class="card-group ">
+     <div class="card mb-3 ">
+       <div class="card-body">
+         <h5 class="card-title">Asthma</h5>
+         <p ><a href="Dupixent vs Xolair.html" onfocus="readAloud('Dupixent vs Fasenra')"> Dupixent vs Fasenra</a> </p>
+         <p ><a href="Dupixent vs Xolair.html" onfocus="readAloud('Tecfidera vs Zeposia')">Tecfidera vs Zeposia</a> </p>
+         <p><a href="Dupixent vs Xolair.html" onfocus="readAloud('Fasenra vs Trelegy Elipta')">Fasenra vs Trelegy Elipta</a> </p>
+         <p><a href="Dupixent vs Xolair.html" onfocus="readAloud('Dulera vs Fasenra')">Dulera vs Fasenra</a> </p>  
+         </div>
+     </div>
+     <div class="card mb-3 ">
+       <div class="card-body">
+         <h5 class="card-title">Multiple Sclerosis</h5>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Aubagio vs Gilenya')"> Aubagio vs Gilenya</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Aubagio vs Ocrevus')">Aubagio vs Ocrevus</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Gilenya vs Mayzent')">Gilenya vs Mayzent</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Tecfidera vs Zeposia')">Tecfidera vs Zeposia</a> </p>  
+       </div>
+     </div>
+     <div class="card mb-3 ">
+       <div class="card-body">
+         <h5 class="card-title">Bipolar</h5>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Abilify Maintena vs Latuda')">Abilify Maintena vs Latuda</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Lamictal vs Latuda')">Lamictal vs Latuda</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Latuda vs Vraylar')">Latuda vs Vraylar</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Seroquel vs Vraylar')">Seroquel vs Vraylar</a> </p>  
+       </div>
+     </div>
+     
+   </div>
+   <div class="card-group">
+     <div class="card mb-3">
+       <div class="media">
+       <div class="card-body">
+         <h5 class="card-title">Narcolepsy</h5>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Dupixent vs Fasenra')"> Dupixent vs Fasenra</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Dupixent vs Xolair')">Dupixent vs Xolair</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Fasenra vs Trelegy Elipta')">Fasenra vs Trelegy Elipta</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Dulera vs Fasenra')">Dulera vs Fasenra</a> </p>  
+         </div>
+      </div>
+     </div>
+     <div class="card mb-3">
+       <div class="card-body">
+         <h5 class="card-title">High Cholesterol</h5>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Aubagio vs Gilenya')"> Aubagio vs Gilenya</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Aubagio vs Ocrevus')">Aubagio vs Ocrevus</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Gilenya vs Mayzent')">Gilenya vs Mayzent</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Tecfidera vs Zeposia')">Tecfidera vs Zeposia</a> </p>  
+       </div>
+     </div>
+      <div class="card mb-3">
+       <div class="card-body">
+         <h5 class="card-title">Depression</h5>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Abilify Maintena vs Latuda')">Abilify Maintena vs Latuda</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Lamictal vs Latuda')">Lamictal vs Latuda</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Latuda vs Vraylar')">Latuda vs Vraylar</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Seroquel vs Vraylar')">Seroquel vs Vraylar</a> </p>  
+       </div>
+       </div>
+     </div>
+   
+   <div class="card-group">
+     <div class="card">
+       <div class="card-body">
+         <h5 class="card-title">Dry Eye Disease</h5>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Dupixent vs Fasenra')"> Dupixent vs Fasenra</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Dupixent vs Xolair')">Dupixent vs Xolair</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Fasenra vs Trelegy Elipta')">Fasenra vs Trelegy Elipta</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Dulera vs Fasenra')">Dulera vs Fasenra</a> </p>  
+         </div>
+     </div>
+     <div class="card">
+       <div class="card-body">
+         <h5 class="card-title">Migraine</h5>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Aubagio vs Gilenya')"> Aubagio vs Gilenya</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Aubagio vs Ocrevus')">Aubagio vs Ocrevus</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Gilenya vs Mayzent')">Gilenya vs Mayzent</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Tecfidera vs Zeposia')">Tecfidera vs Zeposia</a> </p>  
+       </div>
+     </div>
+     <div class="card">
+       <div class="card-body">
+         <h5 class="card-title">Psoriasis</h5>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Abilify Maintena vs Latuda')">Abilify Maintena vs Latuda</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Lamictal vs Latuda')">Lamictal vs Latuda</a> </p>
+         <p><a href="Dupixent vs Xolair.html"onfocus="readAloud('Latuda vs Vraylar')">Latuda vs Vraylar</a> </p>
+         <p><a href="Dupixent vs Xolair.html">Seroquel vs Vraylar</a> </p>  
+       </div>
+     </div>
+     </div>
+     </div>
+     <footer class="bg-dark text-center text-white">
+       <div class="container p-3">
+         <section class="mb-4 d-flex justify-content-around">
+           <!-- Facebook -->
+           <a  href="https://www.facebook.com/Drugscom" style="text-decoration: none;">
+             <i class="bi bi-facebook"></i >
+               <span style="margin-right: 25px;">Facebook</span>
+   
+               
+             </a>
+     
+           <!-- Twitter -->
+           <a  href="https://twitter.com/drugscom" style="text-decoration: none;">
+             <i class="bi bi-twitter"></i >
+               <span style="margin-right: 25px;">Twitter</span>
+               
+             </a>
+     
+           
+     
+           <!-- Instagram -->
+           <a  href="https://www.instagram.com/drugs.com_official/" style="text-decoration: none;">
+             <i class="bi bi-instagram"></i >
+               <span style="margin-right: 25px;">Instagram</span>
+             </a>
+            <!--youtube-->
+             <a  href="https://www.youtube.com/user/drugscom/" style="text-decoration: none;">
+             <i class="bi bi-youtube"></i>
+               <span style="margin-right: 3px;">Youtube</span>
+             </a>
+         </section>
+           <p><strong>Disclaimer:</strong> This site is designed to offer information for general educational purposes only. The health information furnished on this site and the interactive responses are not intended to be professional advice and are not intended to replace personal consultation with a qualified physician, pharmacist, or other healthcare professional. You must always seek the advice of a professional for questions related to a disease, disease symptoms, and appropriate therapeutic treatments.</p>
+</footer>
+   
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+       <script>
+        // Function to start reading the content aloud
+        function readAloud(content) {
+          // const content = 'First Name';
+          const utterance = new SpeechSynthesisUtterance(content);
+          speechSynthesis.speak(utterance);
+        }
+      </script>
+   </body>
+   </html>
+   
